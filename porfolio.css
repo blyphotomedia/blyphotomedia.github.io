@@ -98,7 +98,7 @@ display: flex;
     
   }
     
-  p,main {
+  p.main {
       font-family: sans-serif;
       font-size: 14px;
     height: 100%;
