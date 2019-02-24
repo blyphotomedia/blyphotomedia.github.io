@@ -150,6 +150,13 @@ video {
     margin-right: 250px;
   }
 
+  .video {
+    border-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  }
+
   footer {
   text-align: center;
     width: 100%;
