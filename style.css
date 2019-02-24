@@ -220,16 +220,17 @@ div.footer {
 .mail {
   display: inline-block;
   width: 100%;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
 }
 
 p {
 font-size: 14px;
-padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
