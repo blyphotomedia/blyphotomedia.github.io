@@ -8,6 +8,8 @@ body {
   margin: 0 auto;
   padding: 0px 20px 0px 20px;
   background-color: #F8F8F8;
+  width: auto;
+  height: auto;
   
 }
 
@@ -58,6 +60,8 @@ body {
     padding: 10px;
     border-bottom: 4px solid #cc0000;
     border-top: 4px solid  #cc0000;
+    width: auto;
+    height: auto;
   }
 
 .contentmain {
