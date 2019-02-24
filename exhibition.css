@@ -26,21 +26,29 @@ body {
   
 }
 
+nav {
+  text-align: center;
+display: block;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 2px;
+margin: 0 auto;
+margin-bottom: 40px;
+padding: 10px;
+border-bottom: 4px solid #cc0000;
+border-top: 4px solid  #cc0000;
+}
+
 
 /* portfolio*/
 
-h1 {
-    font-size: 8px;
-    font-family:sans-serif;
-    font-weight: bold;  
-    padding: 10px 10px;
-  }
+
+  
 
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 40px;
     padding: 10px 0px;
   }
   
@@ -57,22 +65,14 @@ h1 {
   .wrapper2 {
     display: flex;  
   }
-
-  nav {
-    text-align: center;
-  display: block;
-font-size: 24px;
-font-weight: bold;
-letter-spacing: 2px;
-margin: 0 auto;
-margin-bottom: 40px;
-  padding: 10px;
-  border-bottom: 4px solid #cc0000;
-  border-top: 4px solid  #cc0000;
-}
   
   .gallery {
 display: flex;
+  }
+
+  .desc {
+    font-size: 15px;
+    text-align: center;
   }
 
   h1 {
@@ -106,17 +106,6 @@ display: flex;
     padding: 20px 30px;
     text-align: center;
     
-    }
-
-    img {
-    
-  
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 25%;
-          padding: 10px;
-        
     }
 
     div.footer {
