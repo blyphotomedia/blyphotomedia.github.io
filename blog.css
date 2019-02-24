@@ -87,7 +87,7 @@ h2 {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin: 0 auto;
-  padding: 10px 0px;
+  padding: 10px `10px;
 }
 
 h3 {
