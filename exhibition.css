@@ -19,8 +19,6 @@ body {
   height: auto;
 }
   
-
-
 .wrapper {
   display: flex;
   
@@ -35,6 +33,16 @@ body {
     margin-right: auto;
     width: 25%;
   }
+
+  img {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  padding: 10px;
+}
+
 
   h1 {
     font-size: 8px;
