@@ -40,6 +40,7 @@ body {
 
 .wrapper2 {
   display: flex;  
+  margin-bottom: 30px;
 }
 
 
@@ -112,6 +113,7 @@ p {
   width: 100%;
  
 }
+
 
 .desc {
   font-size: 15px;
