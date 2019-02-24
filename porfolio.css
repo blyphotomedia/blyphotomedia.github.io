@@ -1,4 +1,22 @@
+
+
+
 /* portfolio*/
+
+h1 {
+    font-size: 8px;
+    font-family:sans-serif;
+    font-weight: bold;  
+    padding: 10px 10px;
+  }
+
+  .border {
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  
 
 .portcontainer {
     width: 100%;
