@@ -146,6 +146,8 @@ video {
     padding-top: 40px;
     display: flex;
     border-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
   footer {
