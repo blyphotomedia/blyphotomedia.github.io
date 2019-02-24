@@ -152,7 +152,7 @@ div.footer {
       
      .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 5px;
   width: 80px;
   text-align: center;
   text-decoration: none;
@@ -187,7 +187,7 @@ div.footer {
   margin: 0 auto;
   vertical-align: middle;
   padding: 10px 10px;
-  display: inlineflex;
+  display: inline-block;
   width: 100%;
 }
 
