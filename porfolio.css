@@ -1,4 +1,30 @@
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
 
+body {
+  margin: 0 auto;
+  padding: 0px 20px 0px 20px;
+  background-color: #F8F8F8;
+  
+}
+
+.logo {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  display: block;  
+  height: auto;
+}
+  
+
+
+.wrapper {
+  display: flex;
+  
+}
 
 
 /* portfolio*/
@@ -31,3 +57,6 @@ h1 {
     display: flex;  
   }
   
+  .gallery {
+display: flex;
+  }
