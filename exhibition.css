@@ -56,6 +56,18 @@ h1 {
   .wrapper2 {
     display: flex;  
   }
+
+  nav {
+    text-align: center;
+  display: block;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 2px;
+margin: 0 auto;
+  padding: 10px;
+  border-bottom: 4px solid #cc0000;
+  border-top: 4px solid  #cc0000;
+}
   
   .gallery {
 display: flex;
