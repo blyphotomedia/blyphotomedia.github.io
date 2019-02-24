@@ -134,10 +134,11 @@ div.footer {
 /* media */
 
 video {
-    width: 50%;
-    height: 500px;
+    width: auto;
+    height: auto;
     padding-top: 40px;
     display: flex;
+    border-top: 40px;
   }
 
   footer {
