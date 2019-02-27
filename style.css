@@ -87,7 +87,7 @@ h2 {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin: 0 auto;
-  padding: 10px 0px;
+  padding: 10px 10px;
   
 }
 
@@ -186,8 +186,8 @@ div.footer {
  
   margin: 0 auto;
   vertical-align: middle;
-  padding: 5px 5px;
-  display: inlineflex;
+  padding: 10px 10px;
+  display: inline-block;
   width: 100%;
 }
 
@@ -216,7 +216,7 @@ div.footer {
 .material-icons {
   display: flex;
   width: 100%;
-    padding: 0px;
+    padding: 5px;
 }
 
 .mail {
