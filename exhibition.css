@@ -157,7 +157,7 @@ border-top: 4px solid  #cc0000;
      
       margin: 0 auto;
       vertical-align: middle;
-      padding: 10px 10px;
+      padding: 5px 5px;
       display: inlineflex;
       width: 100%;
     }
@@ -179,15 +179,10 @@ border-top: 4px solid  #cc0000;
     .material-icons {
       display: flex;
       width: 100%;
-        padding: 5px;
+        padding: 0px;
     }
     
-    .mail {
-      display: inline-block;
-      width: 100%;
-      padding: 20px;
-      
-    }
+   
   
     p {
         font-size: 14px;
