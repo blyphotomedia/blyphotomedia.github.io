@@ -101,6 +101,7 @@ h2 {
     padding: 10px 10px;  
     margin-bottom: 40px;
 }
+
 h3 {
   font-family:sans-serif;
   font-size:15px;
@@ -160,7 +161,12 @@ video {
     margin-left: 250px;
     margin-right: 250px;
   }
-  
+
+  .description 
+  {
+    text-align: center;
+    font-size: 14px;
+  }
 
   footer {
   text-align: center;
