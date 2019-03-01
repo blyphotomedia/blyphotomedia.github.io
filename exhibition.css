@@ -50,7 +50,11 @@ border-top: 4px solid  #cc0000;
 
 /* portfolio*/
 
-
+.responsive {
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
   
 
   .border {

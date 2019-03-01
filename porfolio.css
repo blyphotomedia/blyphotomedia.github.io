@@ -75,6 +75,12 @@ display: flex;
     text-align: center;
   }
 
+  .responsive {
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+
   h1 {
     font-size: 8px;
     font-family:sans-serif;
