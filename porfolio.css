@@ -12,10 +12,11 @@ body {
 }
 
 .logo {
-  width: 30%;
   margin: 0 auto;
   padding: 10px 10px;
   display: block;  
+  height: auto;
+  width: 100%;
   height: auto;
 }
   
