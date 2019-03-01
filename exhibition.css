@@ -37,11 +37,11 @@ img {
 nav {
   text-align: center;
 display: block;
-font-size: 24px;
+font-size: 22px;
 font-weight: bold;
 letter-spacing: 2px;
 margin: 0 auto;
-margin-bottom: 40px;
+margin-bottom: 30px;
 padding: 10px;
 border-bottom: 4px solid #cc0000;
 border-top: 4px solid  #cc0000;
@@ -122,12 +122,12 @@ border-top: 4px solid  #cc0000;
     }
           
     .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 64px;
-        text-align: center;
-        text-decoration: none;
-      }
+      padding: 5px;
+      font-size: 30px;
+      width: auto;
+      text-align: center;
+      text-decoration: none;
+    }
     
     /* Add a hover effect if you want */
     .fa:hover {

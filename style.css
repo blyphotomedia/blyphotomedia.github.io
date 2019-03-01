@@ -150,10 +150,10 @@ div.footer {
       text-align: center;
 }
       
-     .fa {
-  padding: 20px;
+.fa {
+  padding: 5px;
   font-size: 30px;
-  width: 64px;
+  width: auto;
   text-align: center;
   text-decoration: none;
 }
