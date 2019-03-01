@@ -174,7 +174,6 @@ video {
   footer {
   text-align: center;
     width: 100%;
-    
   padding: 10px 10px 10px 10px;
   display: block;
   margin-top: 10px;
@@ -247,11 +246,6 @@ video {
 
 
 
-.email {
-  text-decoration: none;
-  font-size: 20px;
-  width: 100%;
-}
 
 .material-icons {
   display: flex;
@@ -259,12 +253,7 @@ video {
     padding: 5px;
 }
 
-.mail {
-  display: inline-block;
-  width: 100%;
-  padding: 20px;
-  
-}
+
 
 /*footer paragraph*/
 
