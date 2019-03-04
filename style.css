@@ -127,7 +127,11 @@ p.main {
 }
 
 
-
+div.footer {
+  display: flex;
+  padding: 1px;
+  
+}
 
 
   footer {
