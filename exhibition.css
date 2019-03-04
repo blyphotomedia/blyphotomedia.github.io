@@ -98,11 +98,7 @@ border-top: 4px solid  #cc0000;
     
     }
 
-    div.footer {
-      display: flex;
-      padding: 1px;
-      
-    }
+  
     
     footer {
         text-align: center;
@@ -173,17 +169,7 @@ border-top: 4px solid  #cc0000;
       
     }
     
-    .email {
-      text-decoration: none;
-      font-size: 20px;
-      width: 100%;
-    }
-    
-    .material-icons {
-      display: flex;
-      width: 100%;
-        padding: 0px;
-    }
+   
     
    
   
