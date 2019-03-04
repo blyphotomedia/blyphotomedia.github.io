@@ -87,7 +87,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-family:sans-serif;
   font-weight: bold;  
   padding: 10px 10px;
@@ -110,7 +110,7 @@ h2 {
 
 h3 {
   font-family:sans-serif;
-  font-size:15px;
+  font-size:12px;
   text-align: center;
   text-decoration: underline;
   
@@ -118,7 +118,7 @@ h3 {
   
 p.main {
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   height: 100%;
   margin: 10px 10px 10px 10px;
   padding: 20px 30px;
