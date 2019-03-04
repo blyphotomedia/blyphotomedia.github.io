@@ -212,7 +212,9 @@ p.main {
     padding: 5px;
 }
 
-
+.email {
+  display: flex;
+}
 
 p {
   font-size: 12px;
