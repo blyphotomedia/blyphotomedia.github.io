@@ -147,6 +147,10 @@ div.footer {
     background-color: #f2f2f2;
   }
 
+  .footercontact {
+margin-top: 100px;
+  }
+
     a {
     color: #999999;
     text-decoration: none;
