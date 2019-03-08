@@ -65,6 +65,7 @@ border-top: 4px solid  #cc0000;
   .wrapper2 {
     display: flex;  
     margin-top: 20px;
+    margin-right: 0px;
     margin-bottom: 105px;
   }
   
