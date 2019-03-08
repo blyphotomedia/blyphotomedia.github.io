@@ -186,28 +186,10 @@ display: flex;
       margin: auto 0;
       
     }
-    
-    .email {
-      text-decoration: none;
-      font-size: 20px;
-      width: 100%;
-    }
-    
-    .material-icons {
-      display: flex;
-      width: 100%;
-        padding: 0px;
-    }
-    
-    .mail {
-      display: inline-block;
-      width: 100%;
-      padding: 10px;
-      
-    }
+  
 
     p {
-      font-size: 12px;
+      font-size: 10px;
       margin-bottom: 0px;
           margin-top: 0px;
           margin-right: 0px;
