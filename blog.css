@@ -109,7 +109,7 @@ h2 {
 h3 {
   font-family:sans-serif;
   font-size:10px;
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
   
 }
@@ -136,7 +136,7 @@ p.main {
 
 .desc {
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
 }
 
@@ -150,27 +150,21 @@ div.footer {
 
 /* media */
 
-video {
-    width: 100%;
+.video {
+    
     height: auto;
-    padding-top: 40px;
     display: flex;
     border-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
-  .video {
-    border-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
-    
-  }
+ 
 
   .description 
   {
-    text-align: center;
-    font-size: 14px;
+    text-align: left;
+    font-size: 12px;
   }
 
   footer {
