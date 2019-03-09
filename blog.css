@@ -43,8 +43,8 @@ body {
 }
 
 .wrapper2 {
-  display: flex;  
-  margin-bottom: 30px;
+  display: block;  
+  margin-bottom: 0px;
 }
 
 .responsive {
