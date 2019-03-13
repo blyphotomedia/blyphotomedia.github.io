@@ -4,6 +4,20 @@
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
 
+@media only screen and (min-width: 601px) {
+  div.nav {
+    font-size: 22px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.nav {
+    font-size: 12px;
+  }
+}
+
+
 body {
   margin: 0 auto;
   padding: 0px 20px 0px 20px;
@@ -58,7 +72,7 @@ body {
     display: block;
   font-size: 22px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin: 0 auto;
   margin-bottom: 40px;
     padding: 5px;
@@ -83,7 +97,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-family:sans-serif;
   font-weight: bold;  
   padding: 10px 10px;
@@ -93,7 +107,7 @@ h2 {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin: 0 auto;
-  padding: 10px 5px;
+  padding: 10px 10px;
   
 }
 
