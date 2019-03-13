@@ -6,14 +6,20 @@
 
 @media only screen and (min-width: 601px) {
   div.nav {
-    font-size: 22px;
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 8px;
   }
 }
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
   div.nav {
-    font-size: 12px;
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 8px;
   }
 }
 
