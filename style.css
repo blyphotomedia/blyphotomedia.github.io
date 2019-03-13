@@ -82,8 +82,8 @@ body {
   margin: 0 auto;
   margin-bottom: 40px;
     padding: 5px;
-    border-bottom: 4px solid #cc0000;
-    border-top: 4px solid  #cc0000;
+    border-bottom: 2px solid #cc0000;
+    border-top: 2px solid  #cc0000;
   }
 
 .contentmain {
@@ -164,8 +164,8 @@ footer {
     margin-top: 10px;
   padding: 0px 0px 0px 0px;
   display: block;
-   border-bottom: 4px solid #cc0000;
-    border-top: 4px solid  #cc0000;
+   border-bottom: 2px solid #cc0000;
+    border-top: 2px solid  #cc0000;
     background-color: #f2f2f2;
   }
 
