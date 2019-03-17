@@ -12,11 +12,12 @@ body {
 }
 
 .logo {
-  width: 30%;
+  width: 20%;
   margin: 0 auto;
-  padding: 10px 10px;
+  padding: 20px 0px;
   display: block;  
   height: auto;
+  float: left;
 }
   
 img {
@@ -34,17 +35,113 @@ img {
   
 }
 
-nav {
+body {margin:0;font-family:Sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
   text-align: center;
-display: block;
-font-size: 22px;
-font-weight: bold;
-letter-spacing: 1px;
-margin: 0 auto;
-margin-bottom: 40px;
-padding: 5px;
-border-bottom: 2px solid #cc0000;
-border-top: 2px solid  #cc0000;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active {
+  background-color: #cc0000;
+  color: #F8F8F8;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 10px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #cc0000;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
 
 
@@ -73,7 +170,7 @@ border-top: 2px solid  #cc0000;
   }
   
   h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-family:sans-serif;
     font-weight: bold;  
     padding: 10px 10px;
@@ -107,8 +204,8 @@ border-top: 2px solid  #cc0000;
         margin-top: 10px;
       padding: 0px 0px 0px 0px;
       display: block;
-       border-bottom: 2px solid #cc0000;
-        border-top: 2px solid  #cc0000;
+       border-bottom: 4px solid #cc0000;
+        border-top: 4px solid  #cc0000;
         background-color: #f2f2f2;
       }
       
