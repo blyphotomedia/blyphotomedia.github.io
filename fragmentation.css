@@ -138,6 +138,13 @@ body {
     float: right;
     display: block;
   }
+  .topnav a {
+    font-size: 14px;
+  }
+  .dropdown-content a
+  {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -178,6 +185,10 @@ body {
   }
   .copyright {
     font-size: 2px;
+  }
+  
+  .dropdown-content a {
+    text-size: 10px;
   }
   
   .footercontact {
