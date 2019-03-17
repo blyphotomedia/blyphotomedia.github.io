@@ -156,7 +156,7 @@ body {margin:0;font-family:Sans-serif}
     font-size: 10px;
   }
   
-  p {
+  p.main {
     font-size: 10px;
   }
   
@@ -238,7 +238,7 @@ display: flex;
   }
 
   .responsive {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 100%;
     height: auto;
   }
@@ -270,15 +270,25 @@ display: flex;
     
   }
     
-  p {
+  p.main {
       font-family: sans-serif;
-      font-size: 20px;
-    height: 100%;
-    margin: 10px 10px 10px 10px;
+      font-size: 16px;
+
+    margin: 0px 0px 0px 0px;
     padding: 20px 20px;
     text-align: center;
-    
     }
+
+    p.copyright {
+      font-size: 10px;
+      margin-bottom: 0px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-left: 0px;
+          padding-top: 0px;
+      border-bottom: 10px;
+          
+      }
 
   
     
@@ -350,14 +360,6 @@ display: flex;
     }
   
 
-    p {
-      font-size: 10px;
-      margin-bottom: 0px;
-          margin-top: 0px;
-          margin-right: 0px;
-          margin-left: 0px;
-          padding-top: 0px;
-          padding-bottom: 10px;
-      }
+
   
     
