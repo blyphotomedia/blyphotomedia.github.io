@@ -185,7 +185,7 @@ body {margin:0;font-family:Sans-serif}
     font-size: 8px;
   }
   .border {
-    font-size: 10px;
+    font-size: 14px;
   }
   .logo {
     display: block;
@@ -197,7 +197,7 @@ body {margin:0;font-family:Sans-serif}
   }
   
   .dropdown-content a {
-    text-size: 10px;
+    font-size: 10px;
   }
   
   div.footercontact {
