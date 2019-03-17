@@ -135,15 +135,26 @@ body {margin:0;font-family:Sans-serif}
   display: block;
 }
 
+/*responsive nav menu*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
+    font-size: 10px;
   }
   .topnav a.icon {
     float: right;
     display: block;
   }
+  .topnav a {
+    font-size: 14px;
+  }
+  .dropdown-content a
+  {
+    font-size: 10px;
+  }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -156,6 +167,7 @@ body {margin:0;font-family:Sans-serif}
     float: none;
     display: block;
     text-align: left;
+     font-size: 10px;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
@@ -164,7 +176,54 @@ body {margin:0;font-family:Sans-serif}
     width: 100%;
     text-align: left;
   }
+  .video {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .text {
+    font-size: 8px;
+  }
+  .border {
+    font-size: 10px;
+  }
+  .logo {
+    display: block;
+    width: 40%;
+    height: auto;
+  }
+  .copyright {
+    font-size: 6px;
+  }
+  
+  .dropdown-content a {
+    text-size: 10px;
+  }
+  
+  div.footercontact {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+  
+  div.desc {
+    font-size: 6px;
+  }
+  
+  div.gallery {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  p.main {
+    font-size: 10px;
+  }
 }
+
+  
+
 
 .contentmain {
   margin: 5px;
@@ -214,7 +273,7 @@ h3 {
   
 }
   
-p.main {
+.main {
     font-family: sans-serif;
     font-size: 16px;
   height: 100%;
