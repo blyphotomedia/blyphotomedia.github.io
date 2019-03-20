@@ -95,6 +95,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  
 }
 
 .dropdown-content {
@@ -129,10 +130,11 @@ body {
   display: block;
 }
 
+/*responsive nav menu*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
-    font-size: 10px;
+    font-size: 12px;
   }
   .topnav a.icon {
     float: right;
@@ -143,9 +145,11 @@ body {
   }
   .dropdown-content a
   {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -169,14 +173,14 @@ body {
   }
   .video {
     display: block;
-    width: auto;
+    max-width: 100%;
     height: auto;
   }
   .text {
-    font-size: 8px;
+    font-size: 12px;
   }
   .border {
-    font-size: 14px;
+    font-size: 12px;
   }
   .logo {
     display: block;
