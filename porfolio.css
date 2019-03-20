@@ -270,7 +270,7 @@ display: flex;
     
   }
     
-  p.main {
+  .main {
       font-family: sans-serif;
       font-size: 16px;
 
