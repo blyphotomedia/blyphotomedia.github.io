@@ -180,9 +180,9 @@ body {margin:0;font-family:Sans-serif}
     font-size: 12px;
   }
   
-  div.gallery {
+  .exhibition {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -225,9 +225,7 @@ body {margin:0;font-family:Sans-serif}
   
 }
 
-.gallery {
-  margin: auto;
-}
+
   
 
   .border {
