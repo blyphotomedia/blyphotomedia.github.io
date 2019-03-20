@@ -139,7 +139,7 @@ body {margin:0;font-family:Sans-serif}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
-    font-size: 10px;
+    font-size: 12px;
   }
   .topnav a.icon {
     float: right;
@@ -150,7 +150,7 @@ body {margin:0;font-family:Sans-serif}
   }
   .dropdown-content a
   {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -167,7 +167,7 @@ body {margin:0;font-family:Sans-serif}
     float: none;
     display: block;
     text-align: left;
-     font-size: 10px;
+     font-size: 12px;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
@@ -176,38 +176,24 @@ body {margin:0;font-family:Sans-serif}
     width: 100%;
     text-align: left;
   }
+  
   .video {
     display: block;
-    width: auto;
+    max-width: 100%;
     height: auto;
   }
   .text {
-    font-size: 8px;
+    font-size: 12px;
   }
-  .border {
+  
+  p.main {
     font-size: 14px;
-  }
-  .logo {
-    display: block;
-    width: 40%;
-    height: auto;
-  }
-  .copyright {
-    font-size: 6px;
-  }
-  
-  .dropdown-content a {
-    font-size: 10px;
-  }
-  
-  div.footercontact {
-    width: auto;
-    height: auto;
-    display: block;
   }
   
   div.desc {
     font-size: 6px;
+    margin: auto;
+    height: auto;
   }
   
   div.gallery {
@@ -217,11 +203,33 @@ body {margin:0;font-family:Sans-serif}
     margin: auto;
   }
   
-  p.main {
+  img {
+    width: auto;
+    height: auto;
+  }
+  
+  .border {
+    font-size: 14px;
+  }
+  .logo {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  .copyright {
+    font-size: 2px;
+  }
+  
+  .dropdown-content a {
     font-size: 10px;
   }
+  
+  .footercontact {
+    width: auto;
+    height: auto;
+    display: block;
+  }
 }
-
   
 
 
@@ -295,7 +303,7 @@ h3 {
 
 .desc {
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .footer {
