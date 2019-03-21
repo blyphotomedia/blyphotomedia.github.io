@@ -179,7 +179,7 @@ background-color: #cc0000;
     text-align: left;
   }
   
-  video {
+  .video {
     display: block;
     max-width: 100%;
     height: auto;
