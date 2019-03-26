@@ -20,6 +20,13 @@ body {
   float: left;
 }
   
+img {
+    display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+          height: auto;
+}
 
 
 .wrapper {
@@ -27,31 +34,7 @@ body {
   
 }
 
-
-/* portfolio*/
-
-.portcontainer {
-  width: 100%;
-  height: 100px;
-  margin: 0 auto;
-  padding: 5px 5px;
-  display: block;
-  
-}
-
-.wrapper2 {
-  display: flex;  
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-.responsive {
-  margin-bottom: 30px;
-  width: 100%;
-  height: auto;
-}
-
- body {margin:0;font-family:Sans-serif}
+body {margin:0;font-family:Sans-serif}
 
 .topnav {
   overflow: hidden;
@@ -93,7 +76,7 @@ background-color: #cc0000;
   border: none;
   outline: none;
   color: Black;
-  padding: 6px 10px;
+  padding: 6px 25px;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
@@ -104,14 +87,14 @@ background-color: #cc0000;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -183,7 +166,6 @@ background-color: #cc0000;
     display: block;
     max-width: 100%;
     height: auto;
-    margin: auto;
   }
   .text {
     font-size: 12px;
@@ -197,9 +179,9 @@ background-color: #cc0000;
     font-size: 12px;
   }
   
-  div.gallery {
+  .exhibition {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -217,7 +199,7 @@ background-color: #cc0000;
   }
   
   .dropdown-content a {
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .footercontact {
@@ -226,92 +208,31 @@ background-color: #cc0000;
     display: block;
   }
 }
-
-h2 {
-  font-size: 16px;
-  font-family:sans-serif;
-  font-weight: bold;  
-  padding: 10px 10px;
- 
-}
-
-.border {
-  border-bottom: 1px solid #999999;
-  border-top: 1px solid #999999;
-  margin: 0 auto;
-  padding: 10px 10px;
-  margin-bottom: 40px;
   
-}
-
-h3 {
-  font-family:sans-serif;
-  font-size:10px;
-  text-align: center;
-  text-decoration: underline;
-  
-}
-  
-p.main {
-    font-family: sans-serif;
-    font-size: 16px;
-    text-align: center;
-  height: 100%;
-  padding: 10px;
-  line-height: 1.3;
-}
 
 
 
-.video {
-    
-    display: block;
-    border-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 40px;
-  }
 
-.container {
- 
-  width: 100%;
-  padding-bottom: 1%;/* 1:1 Aspect Ratio */
-  position: relative; /* If you want text inside of it */
-}
-
-/* If you want text inside of the container */
-.text {
-  position: relative;
-  margin-top: 20px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 20px;
-  text-align: center;
-  
-}
-
- /* portfolio*/
+/* portfolio*/
 
 .responsive {
   margin-bottom: 10px;
   width: 100%;
   height: auto;
- margin: 0px 0px 0px 0px;
+ margin: 0px 0px 15px -5px;
   
   
 }
 
 
+  
 
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 10px 10px;
-    margin-bottom: 0px;
   }
 
   h1 {
@@ -347,114 +268,88 @@ p.main {
     line-height: 1.3;
     
     }
-
-.desc {
+.desc{
   font-size: 14px;
 }
-
-
-
-footer {
-  text-align: center;
-    width: 100%;
-    margin-top: 10px;
-  padding: 0px 0px 0px 0px;
-  display: block;
-   border-bottom: 2px solid #cc0000;
-    border-top: 2px solid  #cc0000;
-    background-color: #f2f2f2;
-  }
-
-  .footercontact {
-margin-top: 40px;
-  }
-
-    a {
-    color: #999999;
-    text-decoration: none;
-    font-weight: bold;
-      text-align: center;
-}
-      
-.fa {
-  padding: 5px;
-  font-size: 30px;
-  width: auto;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.icons {
- 
-  margin: 0 auto;
-  vertical-align: middle;
-  padding: 5px 5px;
-  display: inline-block;
-  width: 100%;
-}
-
-.copyright {
-  opacity: .5;
-  padding: 0px;
-  text-align: center;
-  margin: auto 0;
-  font-size: 10px;
   
-}
 
-.fa {
-  display: flex;
-}
-
-.clearfix {
- padding: 9px;
-  margin: auto 0;
-}
-
-
-
-.material-icons {
-  display: flex;
-  width: 100%;
-}
-
-
-
-p {
-  font-size: 10px;
-  margin-bottom: 0px;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-top: 0px;
-      padding-bottom: 10px;
-
-  }
-
-
-
-
+    
+    footer {
+      text-align: center;
+        width: 100%;
+        margin-top: 10px;
+      padding: 0px 0px 0px 0px;
+      display: block;
+       border-bottom: 4px solid #cc0000;
+        border-top: 4px solid  #cc0000;
+        background-color: #f2f2f2;
+      }
+      
+      
+    
+        a {
+        color: #999999;
+        text-decoration: none;
+        font-weight: bold;
+          text-align: center;
+    }
+          
+    .fa {
+      padding: 5px;
+      font-size: 30px;
+      width: auto;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .icons {
+     
+      margin: 0 auto;
+      vertical-align: middle;
+      padding: 5px 5px;
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .copyright {
+      opacity: .5;
+      padding: 0px;
+      text-align: center;
+      margin: auto 0;
+      
+    }
+    
+       p.copyright {
+        font-size: 10px;
+        margin-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 5px;
+        }
+  
