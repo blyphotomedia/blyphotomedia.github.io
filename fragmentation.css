@@ -210,7 +210,7 @@ background-color: #cc0000;
   
   div.gallery {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     margin: auto;
   }
