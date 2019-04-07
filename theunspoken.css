@@ -21,21 +21,28 @@ body {
 }
   
 img {
-    display: block;
+     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 30%;
-          padding: 10px;
+            width: 40%;
           height: auto;
+  padding: 10px;
 }
 
 
-.wrapper {
-  display: flex;
-  
-}
 
 body {margin:0;font-family:Sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
+ 
+}
 
 .topnav {
   overflow: hidden;
@@ -77,7 +84,7 @@ background-color: #cc0000;
   border: none;
   outline: none;
   color: Black;
-  padding: 6px 10px;
+  padding: 6px 25px;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
@@ -88,14 +95,14 @@ background-color: #cc0000;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -119,7 +126,7 @@ background-color: #cc0000;
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
-    font-size: 12px;
+    font-size: 14px;
   }
   .topnav a.icon {
     float: right;
@@ -136,7 +143,7 @@ background-color: #cc0000;
   }
   .dropdown-content a
   {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -153,7 +160,7 @@ background-color: #cc0000;
     float: none;
     display: block;
     text-align: left;
-     font-size: 12px;
+     font-size: 14px;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
@@ -180,7 +187,7 @@ background-color: #cc0000;
     font-size: 12px;
   }
   
-  .exhibition {
+  img {
     display: block;
     width: 100%;
     height: auto;
@@ -196,18 +203,14 @@ background-color: #cc0000;
     height: auto;
   }
   .copyright {
-    font-size: 2px;
+    font-size: 12px;
   }
   
   .dropdown-content a {
-    font-size: 10px;
+    font-size: 12px;
   }
   
-  .footercontact {
-    width: auto;
-    height: auto;
-    display: block;
-  }
+  
 }
   
 
