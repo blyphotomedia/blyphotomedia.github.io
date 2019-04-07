@@ -21,21 +21,28 @@ body {
 }
   
 img {
-    display: block;
+     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 30%;
-          padding: 10px;
+            width: 40%;
           height: auto;
+  padding: 10px;
 }
 
 
-.wrapper {
-  display: flex;
-  
-}
 
 body {margin:0;font-family:Sans-serif}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
+ 
+}
 
 .topnav {
   overflow: hidden;
@@ -162,6 +169,7 @@ background-color: #cc0000;
     width: 100%;
     text-align: left;
   }
+  
   .video {
     display: block;
     max-width: 100%;
@@ -179,9 +187,9 @@ background-color: #cc0000;
     font-size: 12px;
   }
   
-  div.responsive {
+  img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -189,7 +197,6 @@ background-color: #cc0000;
   .border {
     font-size: 14px;
   }
-  
   .logo {
     display: block;
     width: 50%;
@@ -200,41 +207,52 @@ background-color: #cc0000;
   }
   
   .dropdown-content a {
-    font-size: 10px;
+    font-size: 12px;
   }
   
-  .footercontact {
-    width: auto;
-    height: auto;
+  
+}
+  
+
+
+
+
+/* video*/
+
+.video {
+    
     display: block;
+    border-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 40px;
   }
-}
-  
 
-
-
-
-/* portfolio*/
-
-.responsive {
-  margin-bottom: 10px;
+.container {
+ 
   width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  
-  
+  padding-bottom: 1%;/* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
 }
 
-.gallery {
-  margin: auto;
-}
+/* If you want text inside of the container */
+.text {
+  position: relative;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  text-align: center;
   
+}
 
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 10px 10px;
   }
 
