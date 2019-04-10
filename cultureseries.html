@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Culture Series</title>
+
+  <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+</head>
+
+<body>
+
+<head>
+
+  <title>Culture Series</title>
+
+  <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="contentmain">
+    <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
+  </div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+ 
+  
+  <div class="dropdown">
+    <button class="dropbtn">Portfolio 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="oneday.html">One Day</a>
+      <a href="cultureseries.html">Culture Series</a>
+      <a href="blackandwhite.html">Black & White</a>
+       <a href="spokenword.html">Spoken Word</a>
+       <a href="theunspoken.html">Fragmentation Series</a>
+    </div>
+  </div> 
+  <a href="theunspoken.html">Blog</a>
+  <a href="exhibition.html">Exhibition</a>
+    <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2 class="border">Culture Series (2011)</h2>
+  
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/222454_207684665929659_821911_n.jpg?_nc_cat=110&_nc_ht=scontent-lht6-1.xx&oh=f0f75ded5689ec0cd7fbc71f73485967&oe=5D09BEDA" alt="Culture Series" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/224687_207684655929660_6770140_n.jpg?_nc_cat=107&_nc_ht=scontent-lht6-1.xx&oh=90581777cc04e230cecc3618a4b38ce4&oe=5D22C7F3" alt="Culture Series" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/230974_207684639262995_2491839_n.jpg?_nc_cat=104&_nc_ht=scontent-lht6-1.xx&oh=3d05ebd6882b962c78b5f2a3b79ed75f&oe=5D240B43" alt="Culture Series" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/222739_207684689262990_2133282_n.jpg?_nc_cat=109&_nc_ht=scontent-lht6-1.xx&oh=337a5021f998c723d1c4b85c583e5e1d&oe=5D25C273" alt="Culture Series" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+  
+  <p class="main"> Selection of images from the Culture Series, exploring the concept on whether 'Two Cultures Can Become Intimate?'.<br>
+
+
+<br>As a British Born Chinese living in England, I have grown up with two cultures; the aim here was to portray my own interpretation on how I have intertwined the Chinese & British cultures, into a mixed culture, that has helped defined my identity.</p><br>
+
+</body>
+</html>
+
+
+<div class="footercontact"><footer>
+                  
+    <div class="icons">
+<a href="https://www.facebook.com/bikkiely" target="_BLANK" target="_BLANK" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/blyphotomedia_ldn" target="_blank" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/thebik25" target="_BLANK" class="fa fa-youtube"></a>
+   
+      
+    </div>
+  
+    
+
+<div class= "copyright"><p class="copyright"> &copy; Bikkie Ly Photomedia 2019. All Rights Reserved. </p></div>
+</footer>
+</body>
+
+</html>
