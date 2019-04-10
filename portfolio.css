@@ -187,7 +187,7 @@ background-color: #cc0000;
   
   img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
     
@@ -213,11 +213,6 @@ background-color: #cc0000;
     width: auto;
     height: auto;
     display: block;
-  }
-  
-  
-.portcontainer {
-  margin-left: -25px ;
   
   
 }
@@ -229,22 +224,7 @@ background-color: #cc0000;
 
 /* portfolio*/
 
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  padding: 0px;
-  
-  
-}
 
-.portcontainer {
-  margin-left: -25px;
-  padding: 10px;
-  
-}
-  
 
   .border {
     border-bottom: 1px solid #999999;
