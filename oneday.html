@@ -74,107 +74,50 @@ function myFunction() {
   </script>
 
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
+  width: 33.33%;
+  padding: 5px;
 }
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
+/* Clearfix (clear floats) */
+.row::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 </style>
-
+</head>
+<body>
 
 <div style="text-align:center">
-  <h2 class="border">Culture Series (2011)</h2>
+  <h2 class="border">One Day (2013)</h2>
+  
 </div>
 
-<!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/20795_558370460861076_1285416405_n.jpg?_nc_cat=106&_nc_ht=scontent-lht6-1.xx&oh=fdfb94311659aa0ee02161f86549ef8f&oe=5D183C2A" alt="One Day" style="width:100%" onclick="myFunction(this);">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/20795_558370460861076_1285416405_n.jpg?_nc_cat=106&_nc_ht=scontent-lht6-1.xx&oh=fdfb94311659aa0ee02161f86549ef8f&oe=5D183C2A" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/53506201_2349483131749791_2244902396855582720_o.jpg?_nc_cat=104&_nc_ht=scontent-lht6-1.xx&oh=73a634977e8467fa7c8add237ba12efc&oe=5D147447" alt="One Day" style="width:100%" onclick="myFunction(this);">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/53506201_2349483131749791_2244902396855582720_o.jpg?_nc_cat=104&_nc_ht=scontent-lht6-1.xx&oh=73a634977e8467fa7c8add237ba12efc&oe=5D147447" alt="Forest" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://66.media.tumblr.com/e2b6eb9f854f43186e0264d47854207a/tumblr_mjrefn14uj1s2p7z4o6_r1_1280.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/428308_522571091107680_1130904010_n.jpg?_nc_cat=108&_nc_ht=scontent-lht6-1.xx&oh=436abb569f23e72a15fbbff70f28f93e&oe=5D1800D9" alt="One Day" style="width:100%" onclick="myFunction(this);">
+    <img src="https://66.media.tumblr.com/e2b6eb9f854f43186e0264d47854207a/tumblr_mjrefn14uj1s2p7z4o6_r1_1280.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
 
 </body>
 </html>

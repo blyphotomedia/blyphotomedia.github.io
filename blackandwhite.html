@@ -74,114 +74,56 @@ function myFunction() {
   </script>
 
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
+  width: 33.33%;
+  padding: 5px;
 }
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
+/* Clearfix (clear floats) */
+.row::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 </style>
 </head>
 <body>
 
 <div style="text-align:center">
-  <h2 class="border">Black & White Series (2009-2011)</h2>
+  <h2 class="border">Black & White Series</h2>
   
 </div>
 
-<!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/252445_211997188831740_2635199_n.jpg?_nc_cat=111&_nc_ht=scontent-lht6-1.xx&oh=946c79293506806d2d5cdec4f17e36ca&oe=5D057692" alt="Droplets of Life" style="width:100%" onclick="myFunction(this);">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/252445_211997188831740_2635199_n.jpg?_nc_cat=111&_nc_ht=scontent-lht6-1.xx&oh=946c79293506806d2d5cdec4f17e36ca&oe=5D057692" alt="leaf" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/253344_211997828831676_1916710_n.jpg?_nc_cat=108&_nc_ht=scontent-lht6-1.xx&oh=d3da5e1b5bc6dc5db860dd96e2ec35fc&oe=5D14F10C" alt="Crime Scene" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://static.wixstatic.com/media/e6cbde_d8edef07524eb44752cbf0881d202cdc.jpg/v1/fill/w_720,h_509,al_c,lg_1,q_90/e6cbde_d8edef07524eb44752cbf0881d202cdc.webp" alt="Double Exposure" style="width:100%" onclick="myFunction(this);">
+    <img src="https://static.wixstatic.com/media/e6cbde_d8edef07524eb44752cbf0881d202cdc.jpg/v1/fill/w_720,h_509,al_c,lg_1,q_90/e6cbde_d8edef07524eb44752cbf0881d202cdc.webp" alt="Double Exposure" style="width:100%">
   </div>
-  <div class="column">
-    <img src="https://static.wixstatic.com/media/e6cbde_ff9d50e4994cb02a5fabf3b849260042.jpg/v1/fill/w_720,h_509,al_c,lg_1,q_90/e6cbde_ff9d50e4994cb02a5fabf3b849260042.webp" alt="Double Exposure" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/253344_211997828831676_1916710_n.jpg?_nc_cat=108&_nc_ht=scontent-lht6-1.xx&oh=d3da5e1b5bc6dc5db860dd96e2ec35fc&oe=5D14F10C" alt="Crime Scene" style="width:100%" onclick="myFunction(this);">
-  </div>
+ 
 </div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
-  
-  <p class="main"> Selection of images from traditional black and white darkroom prints to digital black and white prints. </p>
 
 </body>
 </html>
+  
+   <p class="main"> Selection of images from current work in progress. Concept based on gender identity and individuals who identify as being trans*, portraying the emotional and psychological battle they endure on a daily basis. </p>
 
 
 <div class="footercontact"><footer>
@@ -194,6 +136,8 @@ function myFunction(imgs) {
       
     </div>
   
+  
+
     
 
 <div class= "copyright"><p class="copyright"> &copy; Bikkie Ly Photomedia 2019. All Rights Reserved. </p></div>
