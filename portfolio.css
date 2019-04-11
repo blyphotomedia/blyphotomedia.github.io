@@ -179,12 +179,8 @@ background-color: #cc0000;
     font-size: 12px;
   }
   
-  img {
-    display: block;
+  .column {
     width: 100%;
-    height: auto;
-    margin: auto;
-    
   }
   
   .border {
