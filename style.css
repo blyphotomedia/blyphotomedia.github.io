@@ -14,7 +14,7 @@ body {
 .logo {
   width: 20%;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 10px 0px;
   display: block;  
   height: auto;
   float: left;
@@ -30,16 +30,6 @@ img {
 }
 
 
-.wrapper {
-  display: flex;
-  
-}
-
-.portcontainer {
-  margin-left: 20px;
-  margin-right: -15px;
-    
-}
 
 body {margin:0;font-family:Sans-serif}
 
@@ -48,7 +38,7 @@ body {margin:0;font-family:Sans-serif}
   background-color: #f2f2f2;
   border-bottom: 2px solid #cc0000;
     border-top: 2px solid #cc0000;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 100%;
   display: block;
  
@@ -194,8 +184,11 @@ background-color: #cc0000;
     
   }
   
+  /*body*/
+  
   .border {
     font-size: 14px;
+    
   }
   .logo {
     display: block;
@@ -210,40 +203,6 @@ background-color: #cc0000;
     font-size: 10px;
   }
   
-  .footercontact {
-    width: auto;
-    height: auto;
-    display: block;
-  }
-  
-  
-.portcontainer {
-  margin-left: -25px ;
-  
-  
-}
-}
-  
-
-
-
-
-/* portfolio*/
-
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  padding: 0px;
-  
-  
-}
-
-.portcontainer {
-  margin-left: -25px;
-  padding: 10px;
-  
 }
   
 
@@ -251,7 +210,7 @@ background-color: #cc0000;
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 10px 10px;
   }
 
