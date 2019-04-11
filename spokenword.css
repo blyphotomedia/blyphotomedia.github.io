@@ -21,19 +21,6 @@ body {
 }
   
 
-
-
-.wrapper {
-  display: flex;
-  
-}
-
-.portcontainer {
-  margin-left: 20px;
-  margin-right: -15px;
-    
-}
-
 body {margin:0;font-family:Sans-serif}
 
 .topnav {
@@ -176,7 +163,7 @@ background-color: #cc0000;
   }
   
   div.desc {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   img {
