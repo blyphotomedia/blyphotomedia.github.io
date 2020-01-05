@@ -1,157 +1,399 @@
-<!DOCTYPE html>
-<html lang="en" >
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
 
-
-<head>
-<meta charset="UTF-8">
-<title>Fragmentation Series</title>
-<link rel="stylesheet" href="theunspoken.css">
-</head>
-
-<body>
-
-<html>
-
-<head>
-
-<title>Fragmentation Series (2019)</title>
-
-<link href="theunspokencont.css" rel="stylesheet" type="text/css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-
-
-<body>
-
-<div class="contentmain">
-  <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
-</div>
-
-
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="theunspoken.html">Fragmentation Series</a>
- <a href="spokenwordcont.html">The Unspoken</a>
-  <a href="spokenword.html">Spoken Word</a>
-  <a href="blog.html">Blog</a>
-  <div class="dropdown">
-  <button class="dropbtn">Portfolio 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content">
-   <a href="oneday.html">One Day</a>
-    <a href="cultureseries.html">Culture Series</a>
-    <a href="blackandwhite.html">Black & White</a>
-    <a href="exhibition.html">Exhibition</a>
-  </div>
-</div> 
-
-<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-<div style="padding-left:16px">
+body {
+  margin: 0 auto;
+  padding: 0px 20px 0px 20px;
+  background-color: #F8F8F8;
   
-</div>
+}
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+.logo {
+  width: 20%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: block;  
+  height: auto;
+
+}
+  
+img {
+     display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+          height: auto;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+
+
+body {margin:0;font-family:Sans-serif}
+
+/* nav menu*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
+ 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
+ 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active {
+background-color: #cc0000;
+  color: #F8F8F8;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: Black;
+  padding: 6px 25px;
+  background-color: inherit;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #cc0000;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*responsive nav menu*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+    font-size: 14px;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding: 6px;
+    margin: 1px;
+    
+  }
+  .topnav a {
+    font-size: 14px;
+    padding: 10px;
+  
+    margin: 0px;
+  }
+  .dropdown-content a
+  {
+    font-size: 14px;
   }
 }
-  </script>
-  
-  <h2 class="border1">Fragmentation Series</h2>
-  
-     <div><p class="main1">Series exploring the concepts of memories, time and the unconscious mind.<br>
-       <br>Weekly location shoots across London, to explore the themes around <em> 'light & darkness'</em>. Exposure levels have been altered intentionally to challenge the viewer's perception of <em> reality </em><br>
-   <br> Double exposure images (two images on one picture) again to challenge the viewer's perception of reality, concepts around the <em> unconscious </em> and <em> dreams </em>
-   </p>
-  </div><br>
 
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+     font-size: 14px;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
   
+  .video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    font-size: 12px;
+  }
+  
+  p.main {
+    font-size: 14px;
+  }
+  
+  p.main1 {
+    font-size: 14px;
+  }
+  
+  div.desc {
+    font-size: 12px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .border {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .border1 {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  
+  .dropdown-content a {
+    font-size: 12px;
+  }
+  
+  
+}
+  
+
+
+
+
+/* video*/
+
+.video {
+    
+    display: block;
+    border-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+.container {
  
-    <div><h2 class="border" id="exhibition">Location Shoot 11</h2>
-        <img class="exhibition" src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/68715469_2623720714326030_6137069041153474560_n.jpg?_nc_cat=106&_nc_oc=AQkh8NsR3_MPJkqsn7RYPlI-E9-nANi8ch9hmwTvWjwpWp3MbWppr_2AOyUiz3yHQhq9YVo1qGT3Mwfh5w_sQNoG&_nc_ht=scontent.flhr4-1.fna&oh=a66d9784e03e9612feff7220c8adcac2&oe=5E4BFC1F"alt="boroughmarket">
-      
-      <img class="exhibition" src="https://scontent.flhr1-2.fna.fbcdn.net/v/t1.0-9/p960x960/64246655_2502820849749351_1025511368490483712_o.jpg?_nc_cat=111&_nc_ohc=3urs9aalWvQAQlbIRNXDuSXXPd4qJeIRz1DOkUhlRP9o3L0paIKBq3erA&_nc_ht=scontent.flhr1-2.fna&oh=d7d8e7200af303d3e514f033255f9861&oe=5EA72748" alt="spokenword">
-      
-       <h3><em>Bankside/Borough 13/5/19 </em></h3>
-      
-      <p class="main"><strong>Fujifilm T20 </strong> camera<br>
-        
-        <br><strong>Rationale:</strong> Exposure level set to the lowest, to alter the viewer's perceptions of time/reality/memories.<br>
-        
-             <br><strong>Themes:</strong> Sun/clouds/buildings. Memories one associates with pain/loss.</p><br></div>
-  
- 
-<div><h2 class="border" id="exhibition">Spoken Word</h2>
-  
-   <img class="exhibition" src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/62399084_2502822436415859_7743511793405788160_n.jpg?_nc_cat=109&_nc_oc=AQnHB4EvJUOdzxL3FccLrizI7mF6gP_nuc7WpZtJcYk3nkMx_JoV9VavTl4k-xzUQ9vK0S8X1Yx8AltL12TWLHNx&_nc_ht=scontent.flhr4-1.fna&oh=7d45c632048fc6bb30b499fe8b5a3c3e&oe=5E5166DE" alt="spokenword">
-  
-  <h3><em>Burning Souls Alight (2019) </em></h3>
-      
-  
-  <br><p class="main1"> Spoken Word associated with the memories one holds onto, to preserve the pain within. Inspiration taken from location shoot 11. </p> <br>
-      
-  
-  <div><h2 class="border" id="exhibition">Regent Canal Location Shoot 12</h2>
-        
-      <img class="exhibition" src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/69227226_2623724190992349_5947367435270094848_n.jpg?_nc_cat=111&_nc_oc=AQlW8IK4cS4_oJYPzA3La2ZAfbld-H7_l3sN22b6HnMb1YYN3ia2zX6CpiWqbzWDFvirZxrb0kOXoSIXDHKGtq0e&_nc_ht=scontent.flhr4-1.fna&oh=63c400e692275891c81a446add02a5c0&oe=5E1C471E" alt="Regentcanal">
-    
-          
-           <h3><em>Regent Canal 15/5/19</em></h3> 
-    
-      <p class="main"><strong>Fujifilm T20 </strong> camera<br>
-        
-        <br><strong>Rationale:</strong> Exposure level set to the lowest, to alter the viewer's perceptions of time/reality/memories.<br>
-        
-             <br><strong>Themes:</strong> Sun/clouds/buildings/water/reflections. Memories one associates with pain/loss.</p><br></div>
-      
-      
-  
-  
-  <div><h2 class="border" id="exhibition">River Lee Location Shoot 13</h2>
-    
-      <img class="exhibition" src="https://scontent.flhr1-1.fna.fbcdn.net/v/t1.0-9/p960x960/65216579_2530180573680045_4390457888007520256_o.jpg?_nc_cat=106&_nc_ohc=TkXr1RiyuWQAQm5Xvk9wwQc0hVol5M_w4JszqHP8IjPH6c4IkwfBwgKbg&_nc_ht=scontent.flhr1-1.fna&oh=36a2abff539d6200b1dce9646808499d&oe=5EB48D41" alt="riverlee">
-          
-<h3><em>River Lee 31/5/19</em></h3> 
-  
-      <p class="main"><strong>Fujifilm T20 </strong> camera<br>
-        
-        <br><strong>Rationale:</strong> Exposure level set to the lowest, to alter the viewer's perceptions of time/reality/memories.<br>
-        
-             <br><strong>Themes:</strong> Sun/clouds/trees/nature. Memories one associates with pain/loss.</p><br></div>
-      
-  <div><h2 class="border" id="exhibition">Spoken Word</h2>
-    
-        
-      <img class="exhibition" src="https://scontent.flhr1-1.fna.fbcdn.net/v/t1.0-9/p960x960/65724783_2530186700346099_7053218499199500288_o.jpg?_nc_cat=106&_nc_ohc=BfLK7zYCisMAQnKXYdpDi7cezsig-Xzrwc0KOfHVq0lSTDkiAhmWV5tsg&_nc_ht=scontent.flhr1-1.fna&oh=3c5cc533a78ae9bfd148a7b3d2414703&oe=5EA4BBDB" alt="spokenwordmarshes">
-          
-     <h3><em>My Light, My Sunshine 16/6/19</em></h3>
-    
-    <p class="main"><strong>Rationale:</strong> Where there's darkness, there's light within. Spoken word poetry to express one's pain and loss, that has been cleared upon opening and closing the door to the past pains/memories/trauma.</p><br></div>               
-    
-<div class="footer"><footer>
-                  
-    <div class="icons">
-<a href="https://www.facebook.com/bikkiely" target="_BLANK" target="_BLANK" class="fa fa-facebook"></a>
-<a href="https://www.instagram.com/blyphotomedia_ldn" target="_blank" target="_blank" class="fa fa-instagram"></a>
-      <a href="https://www.youtube.com/channel/UCzH1Yv9r_z5KJIAWSvWwXAg" target="_BLANK" class="fa fa-youtube"></a>
-       </div>
-    
+  width: 100%;
+  padding-bottom: 1%;/* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
+}
 
-<div class= "copyright"><p class="copyright"> &copy; Bikkie Ly Photomedia 2019. All Rights Reserved. </p></div>
-</footer>
-</div>
-</body>
 
-</html>
+
+  .border {
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+  }
+
+.border1 {
+  border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+}
+
+  h1 {
+    font-size: 8px;
+    font-family:sans-serif;
+    font-weight: bold;  
+    padding: 10px 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: bold;  
+    padding: 10px 10px;
+  }
+  
+  
+  h3 {
+    font-family:sans-serif;
+    font-size:10px;
+    text-align: center;
+    text-decoration: underline;
+    
+  }
+    
+  .main {
+      font-family: sans-serif;
+      font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px;
+    text-align: center;
+    line-height: 1.3;
+    
+    }
+
+.main1 {
+  font-family: sans-serif;
+      font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    text-align: center;
+    line-height: 1.3;
+  padding-bottom: 5px;
+}
+
+.desc {
+  font-size: 14px;
+}
+  
+
+    
+    footer {
+      text-align: center;
+        width: 100%;
+        margin-top: 10px;
+      padding: 0px 0px 0px 0px;
+      display: block;
+       border-bottom: 4px solid #cc0000;
+        border-top: 4px solid  #cc0000;
+        background-color: #f2f2f2;
+      }
+      
+      
+    
+        a {
+        color: #999999;
+        text-decoration: none;
+        font-weight: bold;
+          text-align: center;
+    }
+          
+    .fa {
+      padding: 5px;
+      font-size: 30px;
+      width: auto;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .icons {
+     
+      margin: 0 auto;
+      vertical-align: middle;
+      padding: 5px 5px;
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .copyright {
+      opacity: .5;
+      padding: 0px;
+      text-align: center;
+      margin: auto 0;
+      
+    }
+    
+       p.copyright {
+        font-size: 10px;
+        margin-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 5px;
+        }
+  
