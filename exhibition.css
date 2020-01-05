@@ -1,354 +1,136 @@
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+<!DOCTYPE html>
+<html lang="en" >
 
-body {
-  margin: 0 auto;
-  padding: 0px 20px 0px 20px;
-  background-color: #F8F8F8;
+
+<head>
+<meta charset="UTF-8">
+<title>Exhibition</title>
+<link rel="stylesheet" href="exhibition.css">
+</head>
+
+<body>
+
+<html>
+
+<head>
+
+<title>Bikkie Ly Photomedia</title>
+
+<link href="exhibition.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<div class="contentmain">
+  <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
+</div>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="theunspoken.html">Fragmentation Series</a>
+ <a href="spokenwordcont.html">The Unspoken</a>
+  <a href="spokenword.html">Spoken Word</a>
+  <a href="blog.html">Blog</a>
+  <div class="dropdown">
+  <button class="dropbtn">Portfolio 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+   <a href="oneday.html">One Day</a>
+    <a href="cultureseries.html">Culture Series</a>
+    <a href="blackandwhite.html">Black & White</a>
+    <a href="exhibition.html">Exhibition</a>
+  </div>
+</div> 
+
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
   
-}
+</div>
 
-.logo {
-  width: 20%;
-  margin: 0 auto;
-  padding: 10px 0px;
-  display: block;  
-  height: auto;
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+  
  
-}
+  <div><h2 class="border" id="exhibition">Barberette</h2>
+  <img class="exhibition" src="https://images.squarespace-cdn.com/content/v1/54c8a911e4b0b53cb97302cb/1432332647380-NHXCQ8FTQ06685RSBF9Z/ke17ZwdGBToddI8pDm48kPmLlvCIXgndBxNq9fzeZb1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIFMLRh9LbupWL4Bv1SDYZc4lRApws2Snwk0j_RSxbNHMKMshLAGzx4R3EDFOm1kBS/10407873_863761176988668_5013204896315042970_n.jpg?format=2500w" alt="Barberette" style="max-width:100%;height:auto;">
+<h3>Nov-Dec'14
+<em>Scene of Crime Investigator © 2011 </em></h3>
+<p class ="main">Exhibition at <a target="_blank" href="https://www.barberette.co.uk/blog/13th-exhibition-at-barberette">Barberette</a> showcasing a ficitonal crime scene game</p><br>
+
   
-img {
-    display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
-          height: auto;
-}
-
-
-
-
-body {margin:0;font-family:Sans-serif}
-
-.topnav {
-  overflow: hidden;
-  background-color: #f2f2f2;
-  border-bottom: 2px solid #cc0000;
-    border-top: 2px solid #cc0000;
-  margin-bottom: 30px;
-  width: 100%;
-  display: block;
  
-}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.active {
-background-color: #cc0000;
-  color: #F8F8F8;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;    
-  border: none;
-  outline: none;
-  color: Black;
-  padding: 6px 25px;
-  background-color: inherit;
-  font-family: sans-serif;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #cc0000;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #cc0000;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/*responsive nav menu*/
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-    font-size: 14px;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-    padding: 6px;
-    margin: 1px;
+ 
+  
+  <div><h2 class="border" id="exhibition">Infinity Degree Show</h2>
+  <img class="exhibition" src="https://66.media.tumblr.com/936d20e2bb0afc30f458fd5fe508d919/tumblr_mofpyfVTXF1s2p7z4o3_1280.jpg" alt="Infinity">
     
-  }
-  .topnav a {
-    font-size: 14px;
-    padding: 10px;
-  
-    margin: 0px;
-  }
-  .dropdown-content a
-  {
-    font-size: 14px;
-  }
-}
+     <h3><em>One Day © 2013 </em></h3>
+    
+     <p class="main">Double Infinity Photography Degree Show at <a target="_blank" href="http://www.free-range.org.uk/cgi-bin/portfolio.pl?yearID=18&exhibitionID=957&memberID=23778">Freerange</a> London</p><br>
 
-
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-     font-size: 14px;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-  
-  .video {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .text {
-    font-size: 12px;
-  }
-  
-  p.main {
-    font-size: 14px;
-  }
-  
-  div.desc {
-    font-size: 12px;
-  }
-  
-  .exhibition {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: auto;
-  }
-  
-  .border {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  .logo {
-    display: block;
-    width: 50%;
-    height: auto;
-  }
-  .copyright {
-    font-size: 12px;
-  }
-  
-  .dropdown-content a {
-    font-size: 10px;
-  }
-  
-  .footercontact {
-    width: auto;
-    height: auto;
-    display: block;
-  }
-}
   
 
+<div><h2 class="border" id="exhibition">St Clement's Hospital</h2></div>
 
+<img class="exhibition" src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/53419646_2349474795083958_7497632419017654272_n.jpg?_nc_cat=102&_nc_oc=AQlJxTB_uF-ZMoS9HROa7fDz6zk3qWD422kiudk2cgG01R9zh6va-28dl4TH6VOUEW92B2N7Nc1xlp93hghlhAPV&_nc_ht=scontent.flhr4-1.fna&oh=384e424cb479909281b96cbd98b8892a&oe=5E1A7133">
+<h3>June 2011- Present
+<em>Two and Half Cultures © 2011</em></h3>
+<p class="main"> An image from the series Two and Half Cultures has been sold and is now featured as a permanent piece at St Clements Hospital in Ipswich</p><br>
 
-
-/* portfolio*/
-
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
   
+  <div><h2 class="border" id="exhibition">Photography 1 & 2</h2></div>
+
+<img class="exhibition" src="https://scontent.flhr1-1.fna.fbcdn.net/v/t1.0-9/230974_207684639262995_2491839_n.jpg?_nc_cat=104&_nc_ohc=orSJoq6VIMcAQlUqduaevYQ4oKlFMtOuER5mw_4-OHGM95jreaayTN4Hw&_nc_ht=scontent.flhr1-1.fna&oh=642b5bdf0b1065f7167fb51cf6bb7807&oe=5EAF8D43" atl="culture">
+<h3>20th-24th May 2011
+<em>Two and Half Cultures © 2011</em></h3>
+<p class="main"> Photography exhibition at the Waterfront Gallery, showcasing 1st and 2nd photography student's works</p><br>
+
   
-}
+  <div><h2 class="border" id="exhibition">Opening Doors</h2></div>
+
+<img class="exhibition" src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.0-9/252445_211997188831740_2635199_n.jpg?_nc_cat=111&_nc_oc=AQk6eF3TZMflKUMVSy0LA9_Ebqf0jE_gUba3r4PdJ63x7wKD5VKCAnJn5cjPEn60RCgYzR3IdRnOamNoCLvw9eSi&_nc_ht=scontent.flhr4-1.fna&oh=b280d292d244138f8a15b406ccf0cc9e&oe=5E1A5192">
+<h3>June-September 2011
+<em>Droplets of Life © 2009</em></h3>
+<p class="main"> Exhibited at Pretty's Solicitors, along with other students at University Campus Suffolk</p><br>
+</div>
 
 
   
 
-  .border {
-    border-bottom: 1px solid #999999;
-    border-top: 1px solid #999999;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    padding: 10px 10px;
-  }
 
-  h1 {
-    font-size: 8px;
-    font-family:sans-serif;
-    font-weight: bold;  
-    padding: 10px 10px;
-  }
-  
-  h2 {
-    font-size: 16px;
-    font-family:sans-serif;
-    font-weight: bold;  
-    padding: 10px 10px;
-  }
-  
-  
-  h3 {
-    font-family:sans-serif;
-    font-size:10px;
-    text-align: center;
-    text-decoration: underline;
-    
-  }
-    
-  .main {
-      font-family: sans-serif;
-      font-size: 16px;
-  
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px;
-    text-align: center;
-    line-height: 1.3;
-    
-    }
-.desc{
-  font-size: 14px;
-}
-  
 
+<div class="footer"><footer>
+                  
+    <div class="icons">
+<a href="https://www.facebook.com/bikkiely" target="_BLANK" target="_BLANK" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/blyphotomedia_ldn" target="_blank" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/thebik25" target="_BLANK" class="fa fa-youtube"></a>
+       </div>
     
-    footer {
-      text-align: center;
-        width: 100%;
-        margin-top: 10px;
-      padding: 0px 0px 0px 0px;
-      display: block;
-       border-bottom: 4px solid #cc0000;
-        border-top: 4px solid  #cc0000;
-        background-color: #f2f2f2;
-      }
-      
-      
-    
-        a {
-        color: #999999;
-        text-decoration: none;
-        font-weight: bold;
-          text-align: center;
-    }
-          
-    .fa {
-      padding: 5px;
-      font-size: 30px;
-      width: auto;
-      text-align: center;
-      text-decoration: none;
-    }
-    
-    /* Add a hover effect if you want */
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    /* Set a specific color for each brand */
-    
-    /* Facebook */
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    
-    }
-    
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-    
-    .fa-youtube {
-      background: #bb0000;
-      color: white;
-    }
-    
-    .icons {
-     
-      margin: 0 auto;
-      vertical-align: middle;
-      padding: 5px 5px;
-      display: inline-block;
-      width: 100%;
-    }
-    
-    .copyright {
-      opacity: .5;
-      padding: 0px;
-      text-align: center;
-      margin: auto 0;
-      
-    }
-    
-       p.copyright {
-        font-size: 10px;
-        margin-bottom: 0px;
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-left: 0px;
-            padding-top: 0px;
-            padding-bottom: 5px;
-        }
-  
+
+<div class= "copyright"><p class="copyright"> &copy; Bikkie Ly Photomedia 2019. All Rights Reserved. </p></div>
+</footer>
+</div>
+</body>
+
+</html>
