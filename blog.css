@@ -272,6 +272,13 @@ background-color: #cc0000;
 }
   
 
+  .exhibition {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
     
     footer {
       text-align: center;
