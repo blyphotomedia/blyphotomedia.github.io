@@ -176,7 +176,7 @@ background-color: #cc0000;
     font-size: 12px;
   }
   
-  .exhibition {
+  div.exhibition {
     display: block;
     width: 100%;
     height: auto;
