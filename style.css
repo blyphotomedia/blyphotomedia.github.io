@@ -241,6 +241,12 @@ background-color: #cc0000;
   font-size: 14px;
 }
   
+.exhibition {
+  display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
 
     
     footer {
