@@ -173,6 +173,15 @@ background-color: #cc0000;
     
   }
   
+
+.exhibition {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+  }
+
   /*body*/
   
   .border {
