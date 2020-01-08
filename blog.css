@@ -270,6 +270,13 @@ body {margin:0;font-family:Sans-serif}
 .desc{
   font-size: 14px;
 }
+
+.exhibition {
+  display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
   
 
     
