@@ -219,7 +219,8 @@ body {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin: 0 auto;
-  margin-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 15px;
   padding: 10px 10px;
 }
 
