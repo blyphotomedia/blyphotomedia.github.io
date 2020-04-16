@@ -41,7 +41,7 @@ body {margin:0;font-family:Sans-serif}
   background-color: #f2f2f2;
   border-bottom: 2px solid #cc0000;
     border-top: 2px solid #cc0000;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   width: 100%;
   display: block;
  
@@ -243,25 +243,29 @@ background-color: #cc0000;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   }
 
 .container {
  
   width: 100%;
-  margin-top: -20px;
-  padding-bottom: 1%;/* 1:1 Aspect Ratio */
+  margin-top: 0px;
+ 
+  padding-bottom:0 ;/* 1:1 Aspect Ratio */
   position: relative; /* If you want text inside of it */
 }
 
 
-
-  .border {
+.video{
+ 
+}
+.border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
     margin-bottom: 40px;
+      margin-top: 20px;
     padding: 10px 10px;
   }
 
