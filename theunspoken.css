@@ -178,12 +178,17 @@ background-color: #cc0000;
     max-width: 100%;
     height: auto;
   }
+    .container {
+      
+      
+  }
   .text {
     font-size: 12px;
   }
   
   .main {
     font-size: 14px;
+    padding: 20px;
   }
   
   .main1 {
@@ -239,12 +244,12 @@ background-color: #cc0000;
 .video {
     
     display: block;
-    border-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 40px;
-  margin-bottom: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 
 .container {
@@ -256,8 +261,6 @@ background-color: #cc0000;
   position: relative; /* If you want text inside of it */
 }
 
-
-.video{
  
 }
 .border {
