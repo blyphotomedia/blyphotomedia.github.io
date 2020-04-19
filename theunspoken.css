@@ -157,6 +157,7 @@ background-color: #cc0000;
     text-align: left;
   }
   
+  /*responsive main body*/
   
   p.main {
     font-size: 14px;
@@ -165,7 +166,7 @@ background-color: #cc0000;
   div.desc {
     font-size: 12px;
   }
-  
+   
   .exhibition {
     display: block;
     width: 100%;
@@ -211,7 +212,7 @@ background-color: #cc0000;
     margin-right: auto;
     width: 100%;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .video2 {
@@ -219,8 +220,8 @@ background-color: #cc0000;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: -5px;
 }
 /* portfolio*/
 
@@ -240,10 +241,18 @@ background-color: #cc0000;
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
       margin-top: 10px;
     padding: 10px 10px;
   }
+  .border1 {
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    margin: 0 auto;
+    margin-bottom: 20px;
+      margin-top: 10px;
+    padding: 10px 10px;
+}
 
   h1 {
     font-size: 8px;
@@ -263,10 +272,17 @@ background-color: #cc0000;
   h3 {
     font-family:sans-serif;
     font-size:10px;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+.h32 {
+    font-family:sans-serif;
+    font-size:10px;
     margin-top: 15px;
     text-align: center;
     text-decoration: underline;
-    
   }
     
   .main {
