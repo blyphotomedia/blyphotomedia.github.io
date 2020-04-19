@@ -157,6 +157,7 @@ background-color: #cc0000;
     text-align: left;
   }
   
+  /* Main body responsive*/
   
   p.main {
     font-size: 14px;
@@ -261,7 +262,7 @@ background-color: #cc0000;
       font-size: 16px;
   margin-bottom: 0;
     margin: auto;;
-    padding: 10px 350px;
+    padding: 10px 70px;
     padding-bottom: 15px;
     text-align: center;
     line-height: 1.3;
