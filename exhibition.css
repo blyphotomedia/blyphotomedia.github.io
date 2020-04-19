@@ -145,8 +145,6 @@ background-color: #cc0000;
   }
 }
 
-
-
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -168,8 +166,16 @@ background-color: #cc0000;
     text-align: left;
   }
   
- 
-  
+ @media screen and (max-width: 600px)
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    padding-top: 0;
+}
+  /*responsive main body*/
   p.main {
     font-size: 14px;
     margin-bottom:10px;
@@ -181,15 +187,12 @@ background-color: #cc0000;
   }
   
   
-  
   img {
     display: block;
     width: 100%;
     height: auto;
     margin: auto;
-   
     padding-top: 0;
-    
   }
   
   .border {
@@ -214,25 +217,18 @@ background-color: #cc0000;
   .footercontact {
     width: auto;
     height: auto;
-    display: block;
-  
-  
+    display: block; 
 }
 }
   
-
-
-
 
 /* portfolio*/
-
-
 
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     padding: 10px 10px;
   }
 
