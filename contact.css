@@ -412,7 +412,10 @@ margin-bottom:0;
     }
     
     /* Set a specific color for each brand */
-    
+    .fa-linkedin{
+      background: #3B5998;
+          color: white; 
+    }
     /* Facebook */
     .fa-facebook {
       background: #3B5998;
