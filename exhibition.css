@@ -12,22 +12,33 @@ body {
 }
 
 .logo {
-  width: 40%;
+  width: 20%;
   margin: 0 auto;
   padding: 10px 0px;
   display: block;  
   height: auto;
- 
+
 }
   
 img {
     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
+            width: 30%;
           height: auto;
 }
 
+
+.wrapper {
+  display: flex;
+  
+}
+
+.portcontainer {
+  margin-left: 20px;
+  margin-right: -15px;
+    
+}
 
 body {margin:0;font-family:Sans-serif}
 
@@ -36,7 +47,7 @@ body {margin:0;font-family:Sans-serif}
   background-color: #f2f2f2;
   border-bottom: 2px solid #cc0000;
     border-top: 2px solid #cc0000;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   width: 100%;
   display: block;
  
@@ -134,8 +145,6 @@ background-color: #cc0000;
   }
 }
 
-
-
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -157,26 +166,39 @@ background-color: #cc0000;
     text-align: left;
   }
   
-  /*responsive main body*/
-  
-  p.main {
-    font-size: 14px;
-  }
-  
-  div.desc {
-    font-size: 12px;
-  }
-   
-  .exhibition.responsive {
+ @media screen and (max-width: 600px)
+.img {
     display: block;
     width: 100%;
     height: auto;
     margin: auto;
+    padding: 0;
+    padding-top: 0;
+}
+  /*responsive main body*/
+  p.main {
+    font-size: 14px;
+    margin-bottom:10px;
+    margin-top: 0;
+  }
+  
+  h3 {
+    margin: 5px;
+  }
+  
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 0;
   }
   
   .border {
     font-size: 14px;
     text-align: center;
+    margin-bottom: 20px;
   }
   
   .logo {
@@ -195,65 +217,20 @@ background-color: #cc0000;
   .footercontact {
     width: auto;
     height: auto;
-    display: block;
-  }
+    display: block; 
+}
 }
   
-.container {
-    width: 100%;
-    margin-top: 0px;
-    padding-bottom: 10px;
-    position: relative;
-}
 
-.video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 5px;
-}
-
-.video2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-top: 15px;
-    margin-bottom: -5px;
-}
 /* portfolio*/
-
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  
-}
-
-.exhibition {
-  margin-top: 30px;
-  width: 70%;
-}
 
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
     margin-bottom: 30px;
-      margin-top: 10px;
     padding: 10px 10px;
   }
-  .border1 {
-    border-bottom: 1px solid #999999;
-    border-top: 1px solid #999999;
-    margin: 0 auto;
-    margin-bottom: 15px;
-      margin-top: 10px;
-    padding: 10px 10px;
-}
 
   h1 {
     font-size: 8px;
@@ -273,40 +250,31 @@ background-color: #cc0000;
   h3 {
     font-family:sans-serif;
     font-size:10px;
-    margin-top: 0px;
     text-align: center;
+    padding-top: 5px;
     text-decoration: underline;
-  }
-
-.h32 {
-    font-family:sans-serif;
-    font-size:10px;
-    margin-top: 15px;
-    text-align: center;
-    text-decoration: underline;
+    
   }
     
   .main {
       font-family: sans-serif;
       font-size: 16px;
-  margin-bottom: 0;
-    margin: 10px 10px 10px 10px;
+      margin: auto 0;
+    margin-bottom: 10px;
     padding: 10px 10px;
-    padding-bottom: 15px;
     text-align: center;
     line-height: 1.3;
     
     }
-.desc{
-  font-size: 14px;
-}
+
+
   
 
     
     footer {
       text-align: center;
         width: 100%;
-        margin-top: 10px;
+     
       padding: 0px 0px 0px 0px;
       display: block;
        border-bottom: 4px solid #cc0000;
@@ -337,9 +305,11 @@ background-color: #cc0000;
     }
     
     /* Set a specific color for each brand */
-      .fa-linkedin{
+    
+.fa-linkedin{
   background: #3B5998;
-      color: white; 
+      color: white;
+    
 }
     /* Facebook */
     .fa-facebook {
