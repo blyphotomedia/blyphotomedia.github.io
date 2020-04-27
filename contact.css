@@ -184,10 +184,11 @@ button {
     color: black;
   text-align: center;
   cursor: pointer;
-  width: 15%;
+  width: 100%;
   font-size: 16px;
 }
 
+  
 a {
   text-decoration: none;
   font-size: 14px;
@@ -216,7 +217,9 @@ button:hover, a:hover {
 margin: 10px;
 margin-bottom:0;  
 }
-  
+  p{
+  margin: 5px;
+}
   p.main {
     font-size: 14px;
   }
@@ -353,21 +356,25 @@ font-family:sans-serif;
   margin:0px;
 }
 
-
-
+.material-icons {
+  margin: 0;
+  margin-bottom: 0;
+}
+p{
+  margin: 5px;
+}
 button {
 
   outline: 0;
   display: inline-block;
-  margin-top:15px;
-  padding-top: 10px;
-  Padding-bottom:0px;
+  margin-top:0;
+  padding-top: 5px;
+  margin-bottom:0px;
     color: black;
- 
   text-align: center;
   cursor: pointer;
-  
-  font-size: 18px;
+  font-size: 16px;
+  width: 15%;
 }
 .main{
   margin-bottom:0;
@@ -376,7 +383,7 @@ a.number {
   text-decoration: none;
   font-size: 16px;
   color: grey;
-  margin: 5px;
+  margin: px;
  
 }
 
