@@ -176,17 +176,16 @@ font-family:sans-serif;
 
 
 button {
-  border: none;
+ 
   outline: 0;
   display: inline-block;
   padding-top: 10px;
   Padding-bottom:0px;
     color: black;
-
   text-align: center;
   cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+  width: 15%;
+  font-size: 16px;
 }
 
 a {
