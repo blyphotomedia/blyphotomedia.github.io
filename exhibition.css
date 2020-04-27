@@ -86,6 +86,7 @@ background-color: #cc0000;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
+  padding-left: 12px;
 }
 
 .dropdown-content {
