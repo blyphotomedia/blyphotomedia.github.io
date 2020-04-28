@@ -354,7 +354,11 @@ font-family:sans-serif;
 }
 
 p {
-  margin: 5px;
+  margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+
 }
 .phone {
   margin:-6px;
