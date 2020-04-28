@@ -192,8 +192,8 @@ font-family:sans-serif;
     color: black;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
-    width: 30%;
+    font-size: 15px;
+   max-width: 100%;
 }
 
   
@@ -354,10 +354,9 @@ font-family:sans-serif;
 }
 
 p {
-  margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
+  margin: 0px;
+  padding-bottom: 0px;
+  margin-bottom:10px;
 
 }
 .phone {
@@ -365,7 +364,7 @@ p {
 }
 a.number {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   color: grey;
   margin: 5px;
 
@@ -374,19 +373,17 @@ a.number {
   .button{
     outline: 0;
     display: inline-block;
-    margin-top: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin-bottom: 0px;
     color: black;
     text-align: center;
     cursor: pointer;
     font-size: 16px;
-    width: 30%;
+
 }
 
 .emailbutton {
   padding-bottom: 10px;
+ 
 }
 .main{
   margin-bottom:10px;
@@ -399,9 +396,9 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
-.email{
-  font-size: 14px;
-      margin-top: 5px;
+p.email{
+  font-size: 16px;
+      margin-top: 3px;
     margin-bottom: 0px;
 }    
       
