@@ -351,6 +351,7 @@ font-family:sans-serif;
 .material-icons {
   margin: 0;
   margin-bottom: 0;
+  padding-top: 3px;
 }
 
 p {
@@ -378,6 +379,7 @@ a.number {
     text-align: center;
     cursor: pointer;
     font-size: 16px;
+    
 
 }
 
