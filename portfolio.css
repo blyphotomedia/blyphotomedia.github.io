@@ -50,6 +50,8 @@ body {margin:0;font-family:Sans-serif}
   padding: 10px 14px;
   text-decoration: none;
   font-size: 16px;
+  padding-left: 10px;
+    padding-right: 10px;
 }
 
 .active {
@@ -75,9 +77,11 @@ background-color: #cc0000;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
-  padding-left: 12px;
+      padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 0px;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -156,13 +160,12 @@ background-color: #cc0000;
     display: block;
     width: 100%;
     text-align: left;
+     padding-left: 10px;
   }
   
   
   p.main {
     font-size: 14px;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 40px;
   }
   
   div.desc {
@@ -214,7 +217,6 @@ background-color: #cc0000;
 
 .exhibition {
   margin-top: 30px;
-  
 }
 
   .border {
@@ -254,8 +256,8 @@ background-color: #cc0000;
       font-family: sans-serif;
       font-size: 16px;
   margin-bottom: 0;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 70px;
+    margin: 0;
+    padding: 10px 80px;
     padding-bottom: 15px;
     text-align: center;
     line-height: 1.3;
@@ -301,7 +303,7 @@ background-color: #cc0000;
     }
     
     /* Set a specific color for each brand */
-    .fa-linkedin{
+      .fa-linkedin{
   background: #3B5998;
       color: white; 
 }

@@ -61,6 +61,8 @@ body {margin:0;font-family:Sans-serif}
   padding: 10px 14px;
   text-decoration: none;
   font-size: 16px;
+  padding-left: 10px;
+    padding-right: 10px;
 }
 
 .active {
@@ -86,7 +88,10 @@ background-color: #cc0000;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
-  padding-left: 12px;
+      padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 0px;
 }
 
 .dropdown-content {
@@ -165,6 +170,7 @@ background-color: #cc0000;
     display: block;
     width: 100%;
     text-align: left;
+     padding-left: 10px;
   }
   
  @media screen and (max-width: 600px)
