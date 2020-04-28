@@ -368,7 +368,7 @@ a.number {
     color: black;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .emailbutton {
@@ -384,8 +384,8 @@ a.number {
   opacity: 0.8;
 }
 
-#email{
-  font-size: 14px;
+.email{
+  font-size: 12px;
       margin-top: 3px;
     margin-bottom: 0px;
   color:grey;
