@@ -124,7 +124,7 @@ background-color: #cc0000;
   .topnav a.icon {
     float: right;
     display: block;
-    padding: 6px;
+    padding: 3px;
     margin: 1px;
     
   }
@@ -358,4 +358,4 @@ background-color: #cc0000;
             padding-top: 0px;
             padding-bottom: 5px;
         }
-  
+
