@@ -121,10 +121,11 @@ background-color: #cc0000;
     display: none;
     font-size: 14px;
   }
+  
   .topnav a.icon {
     float: right;
     display: block;
-    padding: 6px;
+    padding: 3px;
     margin: 1px;
     
   }
