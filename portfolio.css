@@ -165,7 +165,9 @@ background-color: #cc0000;
   
   
   p.main {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin: 10px;
   }
   
  
@@ -184,7 +186,7 @@ background-color: #cc0000;
   
   .logo {
     display: block;
-    width: 40%;
+    width: 50%;
     height: auto;
   }
   .copyright {
