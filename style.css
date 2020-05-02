@@ -164,7 +164,13 @@ background-color: #cc0000;
      padding-left: 10px;
   }
   
+  .responsive {
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+ margin: 0;
   
+}
   p.main {
     font-size: 14px;
     padding: 10px 35px;
@@ -172,9 +178,9 @@ background-color: #cc0000;
   
   
   
-  .exhibition {
+  .responsive {
     display: block;
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -205,17 +211,11 @@ background-color: #cc0000;
 
 /* portfolio*/
 
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  
-}
+
 
 .exhibition {
   margin-top: 30px;
-  width:60%;
+  width:80%;
 }
 
   .border {
