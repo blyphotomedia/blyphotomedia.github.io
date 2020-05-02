@@ -329,7 +329,7 @@ font-family:sans-serif;
 .material-icons {
   margin: 0;
   margin-bottom: 0;
-  padding-top: 3px;
+  padding-top: 0px;
 }
 
 p {
@@ -340,14 +340,14 @@ p {
 
 }
 .phone {
-  margin:-6px;
+  margin:0px;
 }
 
 a.number {
   text-decoration: none;
   font-size: 15px;
   color: grey;
-  margin: 5px;
+  margin: 0px;
 
  
 }
@@ -362,7 +362,7 @@ a.number {
 }
 
 .emailbutton {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .main{
@@ -375,8 +375,8 @@ a.number {
 }
 
 .email{
-  font-size: 12px;
-      margin-top: 3px;
+  font-size: 14px;
+      margin-top: 5px;
     margin-bottom: 0px;
   color:grey;
 }    
