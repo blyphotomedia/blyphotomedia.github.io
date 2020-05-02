@@ -81,6 +81,7 @@ background-color: #cc0000;
     padding-bottom: 7px;
     padding-left: 5px;
     padding-right: 0px;
+  
 }
 
 .dropdown-content {
@@ -336,6 +337,7 @@ p {
   margin: 0px;
   padding-bottom: 0px;
   margin-bottom:10px;
+  font-family: sans-serif;
   
 
 }
@@ -348,17 +350,18 @@ a.number {
   font-size: 15px;
   color: grey;
   margin: 0px;
-
+ font-family: sans-serif;
  
 }
   #contactbutton{
     outline: 0;
     display: inline-block;
     margin-bottom: 0px;
-    color: black;
+    color: grey;
     text-align: center;
-    cursor: pointer;
-    font-size: 14px;
+    cursor: cursor;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
 .emailbutton {
@@ -367,20 +370,24 @@ a.number {
 
 .main{
   margin-bottom:10px;
-  
+  font-family: sans-serif;
 }
 
-#contactbutton:hover, a:hover {
+#contactbutton:hover, a.emailbuttonmain:hover {
   opacity: 0.8;
 }
 
 .email{
-  font-size: 14px;
+  font-size: 15px;
       margin-top: 5px;
     margin-bottom: 0px;
   color:grey;
+ font-family: sans-serif;
 }    
 
+p{
+  font-family: sans-serif;
+}
       
 .h1contact{
   Font-size: 18px;
