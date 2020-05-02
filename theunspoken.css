@@ -167,17 +167,15 @@ background-color: #cc0000;
   /*responsive main body*/
     .logo {
     display: block;
-    width: 40%;
+    width: 50%;
     height: auto;
   }
   
   p.main {
-    font-size: 16px;
+    font-size: 14px;
   }
   
-  div.desc {
-    font-size: 12px;
-  }
+ 
    
   .exhibition.responsive {
     display: block;
