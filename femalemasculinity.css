@@ -39,7 +39,7 @@ body {margin:0;font-family:Sans-serif}
   margin-bottom: 30px;
   width: 100%;
   display: block;
- height:39px;
+ height:40px;
 }
 
 .topnav a {
@@ -132,7 +132,7 @@ background-color: #cc0000;
   .topnav a {
     font-size: 20px;
     padding: 10px;
-  padding-right: 15px;
+  padding-right: 10px;
     margin: 0px;
   }
   .dropdown-content a
