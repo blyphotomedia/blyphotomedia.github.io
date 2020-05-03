@@ -178,7 +178,9 @@ background-color: #cc0000;
     margin: 10px;
   }
   
- 
+ .logo {
+width: 50%;
+}
    
   .exhibition.responsive {
     display: block;
@@ -227,7 +229,7 @@ background-color: #cc0000;
 }
 
 @media screen 
-  and (min-device-width: 600px) 
+  and (min-device-width: 1244px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
