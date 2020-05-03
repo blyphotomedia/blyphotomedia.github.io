@@ -78,7 +78,7 @@ background-color: #cc0000;
   background-color: inherit;
   font-family: sans-serif;
   margin: 0;
-      padding-top: 7px;
+      padding-top: 6px;
     padding-bottom: 7px;
     padding-left: 5px;
     padding-right: 0px;
@@ -126,8 +126,7 @@ background-color: #cc0000;
   .topnav a.icon {
     float: right;
     display: block;
-    padding: 3px;
-    margin: 1px;
+    
     
   }
   .topnav a {
@@ -175,7 +174,7 @@ background-color: #cc0000;
   
   p.main {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     margin: 10px;
   }
   
@@ -280,6 +279,7 @@ background-color: #cc0000;
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
+    text-align: center;
     margin-bottom: 15px;
       margin-top: 10px;
     padding: 10px 10px;
