@@ -168,8 +168,9 @@ background-color: #cc0000;
   /* Main body responsive*/
   
   p.main {
-    font-size: 16px;
-     padding: 10px 40px;
+    font-size: 14px;
+     padding: 10px 90px;
+    margin: 10px
   }
   
  
