@@ -37,10 +37,9 @@ body {margin:0;font-family:Sans-serif}
   border-bottom: 2px solid #cc0000;
     border-top: 2px solid #cc0000;
   margin-bottom: 30px;
-  width:100%;
+  width: 100%;
   display: block;
-  padding-bottom:0px;
- height: 39px;
+ height:40px;
 }
 
 .topnav a {
@@ -52,16 +51,20 @@ body {margin:0;font-family:Sans-serif}
   text-decoration: none;
   font-size: 16px;
   padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
+
+
 
 .active {
 background-color: #cc0000;
   color: #F8F8F8;
+  
 }
 
 .topnav .icon {
   display: none;
+  
 }
 
 .dropdown {
@@ -132,9 +135,10 @@ background-color: #cc0000;
   .topnav a {
     font-size: 20px;
     padding: 10px;
-  padding-right: 15px;
+  padding-right: 10px;
     margin: 0px;
   }
+  
   .dropdown-content a
   {
     font-size: 14px;
