@@ -168,7 +168,7 @@ background-color: #cc0000;
   /*responsive main body*/
     .logo {
     display: block;
-    width: 40%;
+    width: 50%;
     height: auto;
   }
   
@@ -178,9 +178,7 @@ background-color: #cc0000;
     margin: 10px;
   }
   
- .logo {
-width: 50%;
-}
+ 
    
   .exhibition.responsive {
     display: block;
