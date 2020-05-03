@@ -39,7 +39,8 @@ body {margin:0;font-family:Sans-serif}
   margin-bottom: 30px;
   width:100%;
   display: block;
- height: 39px;
+  padding-bottom:1px;
+ height: 38px;
 }
 
 .topnav a {
