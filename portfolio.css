@@ -214,7 +214,7 @@ background-color: #cc0000;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
