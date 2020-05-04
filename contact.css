@@ -3,14 +3,14 @@
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
- 
+
 body {
   margin: 0 auto;
   padding: 0px 20px 0px 20px;
   background-color: #F8F8F8;
   
 }
- 
+
 .logo {
   width: 40%;
   margin: 0 auto;
@@ -24,13 +24,13 @@ img {
     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 50%;
+            width: 40%;
           height: auto;
 }
- 
- 
+
+
 body {margin:0;font-family:Sans-serif}
- 
+
 .topnav {
   overflow: hidden;
   background-color: #f2f2f2;
@@ -39,40 +39,35 @@ body {margin:0;font-family:Sans-serif}
   margin-bottom: 30px;
   width: 100%;
   display: block;
- height:39px;
-}
  
+}
+
 .topnav a {
   float: left;
   display: block;
   color: black;
   text-align: center;
-  padding: 11px 14px;
+  padding: 10px 14px;
   text-decoration: none;
   font-size: 16px;
   padding-left: 10px;
     padding-right: 10px;
-  padding-bottom:15px;
 }
- 
- 
- 
+
 .active {
 background-color: #cc0000;
   color: #F8F8F8;
-  
 }
- 
+
 .topnav .icon {
   display: none;
-  
 }
- 
+
 .dropdown {
   float: left;
   overflow: hidden;
 }
- 
+
 .dropdown .dropbtn {
   font-size: 16px;    
   border: none;
@@ -84,10 +79,11 @@ background-color: #cc0000;
   margin: 0;
       padding-top: 6px;
     padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 0px;
+  
 }
- 
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -96,7 +92,7 @@ background-color: #cc0000;
   box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
- 
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -105,28 +101,27 @@ background-color: #cc0000;
   display: block;
   text-align: left;
 }
- 
+
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #cc0000;
   color: white;
 }
- 
+
 .dropdown-content a:hover {
   background-color: #cc0000;
-  color: white;
+  color: grey;
 }
- 
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
- 
+
 /*responsive nav menu*/
 @media screen and (max-width: 1244px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
     font-size: 14px;
   }
-  
   .topnav a.icon {
     float: right;
     display: block;
@@ -134,20 +129,19 @@ background-color: #cc0000;
     
   }
   .topnav a {
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
-  padding-right: 10px;
+  
     margin: 0px;
   }
-  
   .dropdown-content a
   {
     font-size: 14px;
   }
 }
- 
- 
- 
+
+
+
 @media screen and (max-width: 1244px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -167,15 +161,15 @@ background-color: #cc0000;
     display: block;
     width: 100%;
     text-align: left;
-     padding-left: 10px;
+    padding-left: 10px;
+    
   }
-
   
   /*responsive main body and contact card */
   
   .logo {
     display: block;
-    width: 50%;
+    width: 40%;
     height: auto;
   }
   
@@ -245,8 +239,7 @@ margin: 10px;
 margin-bottom:0;  
 }
  
-.fa
-  {}
+
   
   .border {
     font-size: 14px;
@@ -498,5 +491,5 @@ margin-bottom:0px;
             padding-top: 0px;
             padding-bottom: 5px;
         }
-
   
+
