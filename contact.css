@@ -24,7 +24,7 @@ img {
     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 30%;
+            width: 40%;
           height: auto;
 }
 
@@ -40,6 +40,7 @@ body {margin:0;font-family:Sans-serif}
   width: 100%;
   display: block;
 
+ 
 }
 
 .topnav a {
@@ -47,12 +48,11 @@ body {margin:0;font-family:Sans-serif}
   display: block;
   color: black;
   text-align: center;
-  padding: 10px 14px;
+  padding: 11px 14px;
   text-decoration: none;
   font-size: 16px;
   padding-left: 10px;
     padding-right: 10px;
-  
 }
 
 .active {
@@ -80,9 +80,8 @@ background-color: #cc0000;
   margin: 0;
       padding-top: 6px;
     padding-bottom: 7px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-right: 5px;
-  
 }
 
 .dropdown-content {
@@ -110,7 +109,7 @@ background-color: #cc0000;
 
 .dropdown-content a:hover {
   background-color: #cc0000;
-  color: grey;
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -123,6 +122,7 @@ background-color: #cc0000;
     display: none;
     font-size: 16px;
   }
+  
   .topnav a.icon {
     float: right;
     display: block;
@@ -130,8 +130,8 @@ background-color: #cc0000;
     
   }
   .topnav a {
-    font-size: 20px;
-    padding:5px;
+    font-size: 16px;
+    padding: 7px;
   
     margin: 0px;
   }
@@ -154,10 +154,9 @@ background-color: #cc0000;
      float: none;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
     margin: 0;
      font-size: 16px;
-  }
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
@@ -165,16 +164,82 @@ background-color: #cc0000;
     display: block;
     width: 100%;
     text-align: center;
-    margin-top:4px;
+    margin-top:1px;
      padding-left: 10px;
-    padding-bottom:9px;
     margin-bottom:-5px;
-    
   }
   
-  /*responsive main body and contact card */
+  /*responsive main body*/
+    .logo {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
   
-  .logo {
+  p.main {
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 10px;
+  }
+  
+ 
+   
+  .exhibition.responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .border {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+
+  .copyright {
+    font-size: 12px;
+  }
+  
+  .dropdown-content a {
+    font-size: 10px;
+  }
+  
+  .footercontact {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+}
+  
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+
+
+
+.logo {
     display: block;
     width: 50%;
     height: auto;
@@ -499,4 +564,5 @@ margin-bottom:0px;
             padding-bottom: 5px;
         }
   
+
 
