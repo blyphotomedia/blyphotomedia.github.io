@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   padding: 10px 0px;
   display: block;  
@@ -39,7 +39,7 @@ body {margin:0;font-family:Sans-serif}
   margin-bottom: 30px;
   width: 100%;
   display: block;
- 
+
 }
 
 .topnav a {
@@ -52,6 +52,7 @@ body {margin:0;font-family:Sans-serif}
   font-size: 16px;
   padding-left: 10px;
     padding-right: 10px;
+  
 }
 
 .active {
@@ -129,8 +130,8 @@ background-color: #cc0000;
     
   }
   .topnav a {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 20px;
+    padding:5px;
   
     margin: 0px;
   }
