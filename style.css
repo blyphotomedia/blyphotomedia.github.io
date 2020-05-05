@@ -39,7 +39,7 @@ body {margin:0;font-family:Sans-serif}
   margin-bottom: 30px;
   width: 100%;
   display: block;
-margin-top:-10px;
+
  
 }
 
@@ -136,14 +136,13 @@ background-color: #cc0000;
   .topnav a {
     font-size: 20px;
     padding:5px;
-  
     margin: 0px;
   }
-  .dropdown-content a
-  {
+  
+  .dropdown-content a {
     font-size: 16px;
   }
-}
+
 
 
 
@@ -162,7 +161,7 @@ background-color: #cc0000;
     margin: 0;
      font-size: 16px;
   }
-  }
+  
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
@@ -286,6 +285,7 @@ background-color: #cc0000;
       margin-top: 10px;
     padding: 10px 10px;
   }
+
   .border1 {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
