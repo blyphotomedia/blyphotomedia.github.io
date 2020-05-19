@@ -36,46 +36,45 @@
 
 
 <body>
-
- <div class="contentmain">
+<div class="contentmain">
     <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
   </div>
 
-  <div class="topnav" id="myTopnav">
-   <a href="index.html" class="active"><i style="font-size:18px; padding:5px; padding-left:5px; padding-bottom:1px; padding-right:5px; margin: 0px;" class="fa fa-home"></i></a>
-  <div class="dropdown">
-    <button class="dropbtn">Current Series 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-     <a href="theunspoken.html">Fragmentation Series</a>
-      <a href="femalemasculinity.html">Female Masculinity Series</a>
-    </div>
-  </div> 
-   <a href="portfolio.html">Portfolio<i style="font-size:20px" class="fa fa-camera-retro"></i></a>
-   <a href="exhibition.html">Exhibition <i style="font-size:20px" class="fa fa-photo"></i></a>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+ <a href="index.html" class="active"><i style="font-size:20px" class="fa fa-home"></i></a>
+  <div id="myLinks">
    
-  <a href="contact.html">Contact <i style="font-size:20px" class="fa fa-envelope"></i></a>
-  <a href="javascript:void(0);" style="font-size:18px; padding:3px;  margin:1px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="theunspoken.html">Fragmentation Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+  <a href="femalemasculinity.html">Female Masculinity Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+    <a href="portfolio.html">Gallery <i style="font-size:18px" class="fa fa-camera-retro"></i></a>
+    <a href="exhibition.html">Exhibition <i style="font-size:18px" class="fa fa-photo"></i></a>
+    
+    <a href="contact.html"><i style="font-size:18px" class="fa fa-envelope"></i></a>
   </div>
-
-
-
-<div style="padding-left:16px">
-  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+
+
+<!-- End smartphone / tablet look -->
+  </div>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    x.className = "topnav";
+    x.style.display = "block";
   }
 }
-  </script>
-  
+</script>
   <h2 class="border1">Fragmentation Series</h2>
   
      <p class="main"> This page will be dedicated to exploring the links between <strong>'Trauma and Creativity'</strong> whether the two have a role in how one uses their trauama to create artworks.<br>
