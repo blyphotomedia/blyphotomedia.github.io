@@ -1,5 +1,5 @@
 @media screen 
-  and (min-device-width: 1244px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 25%;
+  width: 35%;
   margin: 0 auto;
   padding: 10px 0px;
   display: block;  
@@ -24,193 +24,114 @@ img {
     display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
+            width: 30%;
+          padding: 10px;
           height: auto;
 }
 
 
-body {margin:0;font-family:Sans-serif}
+
+body {margin:0;font-family:crimson}
+
+
+
+.mobile-container {
+  max-width: 0 auto;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  height: 0 auto;
+  color: white;
+  border-radius: 10px;
+  margin-bottom:30px;
+}
 
 .topnav {
   overflow: hidden;
-  background-color: #f2f2f2;
-  border-bottom: 2px solid #cc0000;
-    border-top: 2px solid #cc0000;
-  margin-bottom: 30px;
-  width: 100%;
-  display: block;
+  background-color: #f2f2f23;
+  position: relative;
+  
+}
 
- 
+.topnav #myLinks {
+  display: none;
 }
 
 .topnav a {
-  float: left;
-  display: block;
   color: black;
-  text-align: center;
-  padding: 10px 14px;
+  padding: 5px 10px;
   text-decoration: none;
   font-size: 16px;
-  padding-left: 10px;
-    padding-right: 10px;
-   margin-bottom:-4px;
-  margin-top:-3px;
-    
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1px;
+  text-align: center;
 }
 
+.topnav a.icon {
+  background: #cc0000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 2px;
+}
+
+.topnav a:hover {
+   background-color: #cc0000;
+  color: white;
+}
 
 .active {
-background-color: #cc0000;
-  color: #F8F8F8;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;    
-  border: none;
-  outline: none;
-  color: Black;
-  padding: 10px 25px;
-  background-color: inherit;
-  font-family: sans-serif;
-  margin: 0px;
-     padding-left:25px;
-  padding-right:10px;
-  
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 140px;
-  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  padding-bottom:0px;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 10px 16px;
- 
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #cc0000;
   color: white;
 }
 
-.dropdown-content a:hover {
-  background-color: #cc0000;
-  color: white;
-}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/*responsive nav menu*/
-@media screen and (max-width: 1366px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-    font-size: 16px;
-  }
-  
-  .topnav a.icon {
-    float: right;
-    display: block;
-    
-    
-  }
-  .topnav a {
-    font-size: 16px;
-    padding: 4px;
-  
-    margin: 0px;
-  }
-  .dropdown-content a
-  {
-    font-size: 16px;
-  }
-}
-
-
-
-@media screen and (max-width: 1366px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
- .topnav.responsive a {
-     float: none;
-    display: block;
-    text-align: center;
-    padding: 3px;
-    padding-bottom:5px;
-    margin: 0;
-     font-size: 16px;
-  }
+@media screen and (max-width: 1024px)
+{
   
   
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
- display: block;
-    width: 100%;
-    text-align: center;
-    margin-top:2px;
-     padding-left: 10px;
-    padding-bottom:4px;
-    padding-top:4px;
-    margin-bottom:-1px;
-    
-  }
-  
-  /*responsive main body*/
+  body {
+    font-family: crimson;
+  }  
+    /*responsive main body*/
     .logo {
     display: block;
-    width: 50%;
+    width: 40%;
     height: auto;
   }
-  
+
   p.main {
     font-size: 14px;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 0 auto;
+    font-family: crimson;
   }
   
- 
-   
-  .exhibition.responsive {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: auto;
-  }
-  
-  .border  {
+  .border {
     font-size: 15px;
-    text-align: center;
+    font-family:crimson;
+    font-weight: bold;  
+    padding: 10px 10px;
+    text-align:center;
   }
   
-  .border1  {
+  .border1 {
     font-size: 15px;
-    text-align: center;
+    font-family:crimson;
+    font-weight: bold;  
+    padding: 10px 10px;
+    text-align:center;
   }
+
+ .exhibition {
+  margin-top: 20px;
+ max-width: 100%;
+}
+
+
+
+
   
 
   .copyright {
