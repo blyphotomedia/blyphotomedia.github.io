@@ -1,7 +1,7 @@
 
 
 @media screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 1024px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
@@ -88,7 +88,7 @@ body {margin:0;font-family:crimson}
 }
 
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1024px)
 {
   
   
@@ -98,7 +98,7 @@ body {margin:0;font-family:crimson}
     /*responsive main body*/
     .logo {
     display: block;
-    width: 50%;
+    width: 40%;
     height: auto;
   }
 
