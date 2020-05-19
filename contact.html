@@ -48,50 +48,53 @@
     <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
   </div>
 
-<div class="topnav" id="myTopnav">
-   <a href="index.html" class="active"><i style="font-size:18px; padding:4px; padding-left:5px; padding-bottom:1px; padding-right:5px; margin: 0px;" class="fa fa-home"></i></a>
-  <div class="dropdown">
-    <button class="dropbtn">Current Series 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-     <a href="theunspoken.html">Fragmentation Series</a>
-      <a href="femalemasculinity.html">Female Masculinity Series</a>
-    </div>
-  </div> 
-   <a href="portfolio.html">Portfolio <i style="font-size:20px" class="fa fa-camera-retro"></i></a>
-   <a href="exhibition.html">Exhibition <i style="font-size:20px" class="fa fa-photo"></i></a>
-   
-  <a href="contact.html">Contact <i style="font-size:20px" class="fa fa-envelope"></i></a>
-  <a href="javascript:void(0);" style="font-size:18px; padding:3px;  margin:1px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-<div style="padding-left:16px">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+ <a href="index.html" class="active"><i style="font-size:20px" class="fa fa-home"></i></a>
+  <div id="myLinks">
+   
+  <a href="theunspoken.html">Fragmentation Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+  <a href="femalemasculinity.html">Female Masculinity Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+    <a href="portfolio.html">Gallery <i style="font-size:18px" class="fa fa-camera-retro"></i></a>
+    <a href="exhibition.html">Exhibition <i style="font-size:18px" class="fa fa-photo"></i></a>
+    
+    <a href="contact.html"><i style="font-size:18px" class="fa fa-envelope"></i></a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<!-- End smartphone / tablet look -->
 </div>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    x.className = "topnav";
+    x.style.display = "block";
   }
 }
 </script>
 
 
-
 <div class="card">
-  <img class="cardimg" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/92519614_3134551646576265_8381261587289210880_o.jpg?_nc_cat=100&_nc_sid=e3f864&_nc_ohc=U1mNHYD4dO4AX9otAZ7&_nc_ht=scontent-lht6-1.xx&oh=49b6888b6241e6d2c77a3f624981339c&oe=5EC2B07E" alt="Bikkie" style="width:100%">
+  <img class="cardimg" src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/614a9b36-2d22-489b-a34a-7a1f260bb725/58727f35-f182-4a09-9aa6-02031b9c5f0c_rw_3840.jpg?h=db992d7f502d49c2426f3f4ce29cd4f8" alt="Bikkie" style="width:100%">
   <h1>Bikkie Ly</h1>
  
   <h2>Founder of Bikkie Ly Photomedia</h2>
    <p></p>
-<i style="font-size:20px" class="fa fa-camera-retro"></i>
+<i style="font-size:20px" class="fa">&#xf030;</i>
    <h2 class="heading2">Conceptual Artist / Photographer / Front End Developer</h2>
   <div style="margin: 0px 0;">
-  
+   
     </div>
   <div class="phone">
   <h3 class="main"> <i style="font-size:30px" class="fa">&#xf10b;</i><a id="contactbutton" class="number" href="tel:07746530457"><p>+44 (0)7746 530457</a></p>
@@ -124,4 +127,6 @@ function myFunction() {
 </body>
 
 </html>
+
+
 
