@@ -1,307 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" >
 
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
 
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-
-body {
-  margin: 0 auto;
-  padding: 0px 20px 0px 20px;
-  background-color: #F8F8F8;
-  
-}
-
-.logo {
-  width: 35%;
-  margin: 0 auto;
-  padding: 10px 0px;
-  display: block;  
-  height: auto;
- 
-}
-  
-img {
-    display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-          padding: 10px;
-          height: auto;
-}
-
-
-
-body {margin:0;font-family:crimson}
-
-
-
-.mobile-container {
-  max-width: 0 auto;
-  margin: 0 auto;
-  background-color: #f2f2f2;
-  height: 0 auto;
-  color: white;
-  border-radius: 10px;
-  margin-bottom:30px;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #f2f2f23;
-  position: relative;
-  
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: black;
-  padding: 5px 10px;
-  text-decoration: none;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1px;
-  text-align: center;
-}
-
-.topnav a.icon {
-  background: #cc0000;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 2px;
-}
-
-.topnav a:hover {
-   background-color: #cc0000;
-  color: white;
-}
-
-.active {
-  background-color: #cc0000;
-  color: white;
-}
-
-/* ipad responsive main body*/
-@media screen and (max-width: 1024px)
-{
+  <link href="oneday.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  body {
-    font-family: crimson;
-  }  
+</head>
+
+  <title>Homepage</title>
+
+<link href="oneday.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+  <div class="contentmain">
+    <a id="homebtn" href="index.html"><img class="logo" src="https://static.wixstatic.com/media/e6cbde_0209ead4ed1dcfb47b27f257f73ac786.gif" alt="logo"></a>
+  </div>
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+</style>
+
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+ <a href="index.html" class="active"><i style="font-size:20px" class="fa fa-home"></i></a>
+  <div id="myLinks">
+   
+  <a href="theunspoken.html">Fragmentation Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+  <a href="femalemasculinity.html">Female Masculinity Series <i style="font-size:18px" class="fa fa-photo"></i></a>
+    <a href="portfolio.html">Gallery <i style="font-size:18px" class="fa fa-camera-retro"></i></a>
+    <a href="exhibition.html">Exhibition <i style="font-size:18px" class="fa fa-photo"></i></a>
     
-    .logo {
-    display: block;
-    width: 40%;
-    height: auto;
-  }
+    <a href="contact.html"> <i style="font-size:18px" class="fa fa-envelope"></i></a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-  p.main {
-    font-size: 14px;
-    padding: 10px 20px;
-    margin: 0 auto;
-    font-family: crimson;
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
+}
+</script>
+
   
-  .border {
-    font-size: 16px;
-    font-family:crimson;
-    font-weight: bold;  
-    padding: 10px 10px;
-    background-color: #f2f2f2;
-  height: 0 auto;
-  color: black;
+
+<div><h2 id="about" class="border">One Day (2013)</h2></div>
   
-  margin-bottom:30px;
-  }
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://66.media.tumblr.com/9b8d9f06fba74f955e73b2bb010e34cb/19584aa36a2443ba-73/s2048x3072/79dfabc99247013320fa3f63c73e972457af9d6b.jpg">
+      <img src="https://66.media.tumblr.com/9b8d9f06fba74f955e73b2bb010e34cb/19584aa36a2443ba-73/s2048x3072/79dfabc99247013320fa3f63c73e972457af9d6b.jpg" alt="make up 1" width="600" height="400">
+    </a>
+    <div class="desc">Looking?</div>
+  </div>
+</div>
 
 
-}
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://66.media.tumblr.com/05ee634df41f5b59f11a80b1be6af8da/19584aa36a2443ba-63/s2048x3072/177291d08f566abc1ac7824c72e09900d96a98ec.jpg">
+      <img src="https://66.media.tumblr.com/05ee634df41f5b59f11a80b1be6af8da/19584aa36a2443ba-63/s2048x3072/177291d08f566abc1ac7824c72e09900d96a98ec.jpg" alt="mirror" width="600" height="400">
+    </a>
+    <div class="desc">Reflections</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://66.media.tumblr.com/ec5371b7c6a1de63944458b303ade516/19584aa36a2443ba-49/s2048x3072/4261838b74b8dfaa9d8f8412a2d155aba3e417c4.jpg">
+      <img src="https://66.media.tumblr.com/ec5371b7c6a1de63944458b303ade516/19584aa36a2443ba-49/s2048x3072/4261838b74b8dfaa9d8f8412a2d155aba3e417c4.jpg" alt="breast" width="600" height="400">
+    </a>
+    <div class="desc">Anguish</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://66.media.tumblr.com/9f1cb5abb8d488448b07da46fdf1ca01/19584aa36a2443ba-e8/s2048x3072/9b063cb8a81960a42cf9498200e5fed76cb0fb56.jpg">
+      <img src="https://66.media.tumblr.com/9f1cb5abb8d488448b07da46fdf1ca01/19584aa36a2443ba-e8/s2048x3072/9b063cb8a81960a42cf9498200e5fed76cb0fb56.jpg" alt="Millenium Bridge" width="600" height="400">
+    </a>
+    <div class="desc">Scream</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p class="main">Series exploring the concepts of memories, time and the unconscious mind.
+
+Weekly location shoots across London, to explore the themes around 'light & darkness'. Exposure levels have been altered intentionally to challenge the viewer's perception of reality<br>
+
+<br>Double exposure images (two images on one picture) again to challenge the viewer's perception of reality, concepts around the unconscious and dreams.</p>
+  
+</div>
 
 
-
-/* portfolio*/
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 0px;
-  text-align: center;
-  color:black;
-  margin-bottom:10px;
-  font-size:14px;
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-  padding-bottom:10px;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-  .border {
-    
-    margin: 0 auto;
-    margin-bottom: 30px;
-      margin-top: 10px;
-    width:100%;
-    padding: 8px 10px;
-    text-align:center;
-    font-size:16px;
-    background-color: #f2f2f2;
-  height: 0 auto;
-  color: black;
-  }
-
- 
-
- 
-  .main {
-      font-family: sans-serif;
-      font-size: 16px;
-  margin-bottom: 0;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px;
-    padding-bottom: 15px;
-    text-align: center;
-    line-height: 1.3;
-    margin-top:20px;
-    
-    }
-
-
-
-  /* footer */
-
-    footer {
-      text-align: center;
-        width: 100%;
-        margin-top: 10px;
-      padding: 0px 0px 0px 0px;
-      display: block;
-       border-bottom: 4px solid #cc0000;
-        border-top: 4px solid  #cc0000;
-        background-color: #f2f2f2;
-      }
+  
+<div class="footercontact"><footer>
+                  
+    <div class="icons">
+      <a href="https://uk.linkedin.com/in/bikkie-ly-4a42a330" target="_BLANK" class="fa fa-linkedin"></a> 
+<a href="https://www.facebook.com/Bikkielyphotomedia" target="_BLANK" target="_BLANK" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/blyphotomedia_ldn" target="_blank" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/thebik25" target="_BLANK" class="fa fa-youtube"></a>
+   
       
-      
-    
-        a {
-        color: #999999;
-        text-decoration: none;
-        font-weight: bold;
-          text-align: center;
-    }
-          
-    .fa {
-      padding: 5px;
-      font-size: 30px;
-      width: auto;
-      text-align: center;
-      text-decoration: none;
-    }
-    
-    /* Add a hover effect if you want */
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    /* Set a specific color for each brand */
-      .fa-linkedin{
-  background: #3B5998;
-      color: white; 
-}
-    /* Facebook */
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    
-    }
-    
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-    
-    .fa-youtube {
-      background: #bb0000;
-      color: white;
-    }
-    
-    .icons {
-     
-      margin: 0 auto;
-      vertical-align: middle;
-      padding: 5px 5px;
-      display: inline-block;
-      width: 100%;
-    }
-    
-    .copyright {
-      opacity: .5;
-      padding: 0px;
-      text-align: center;
-      margin: auto 0;
-      
-    }
-    
-       p.copyright {
-        font-size: 10px;
-        margin-bottom: 0px;
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-left: 0px;
-            padding-top: 0px;
-            padding-bottom: 5px;
-        }
+    </div>
 
+    
 
+<div class= "copyright"><p class="copyright"> &copy; Bikkie Ly Photomedia 2019. All Rights Reserved. </p></div>
+</footer>
+</body>
 
-
-
-
-
-
+</html>
