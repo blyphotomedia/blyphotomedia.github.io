@@ -89,10 +89,40 @@ body {margin:0;font-family:crimson}
 }
 
 
-@media screen and (max-width: 1024px)
-{
   
+@media screen and (max-width: 768px) {}
+    .overlay {
+    position: relative;
+    bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity: 1;
+  color: white;
+ 
+  padding: 10px;
+  text-align: center;
+  }
+
+      h1 {
+    font-size: 18px;
+    font-family:sans-serif;
+ padding:0px;
+    margin:10px;
+    padding-bottom: 0px;
   
+  }
+	.main {
+	font-size:14px;
+    text-align:center;
+    color:black;
+
+}
+
+
+
   body {
     font-family: crimson;
   }  
@@ -113,7 +143,7 @@ body {margin:0;font-family:crimson}
   }
   
   .border {
-    font-size: 14px;
+    font-size: 12px;
     font-family:crimson;
     font-weight: bold;  
     padding: 10px 10px;
@@ -124,22 +154,23 @@ body {margin:0;font-family:crimson}
 
  .responsive {
   margin-top: 20px;
+   margin-bottom: 20px;
  max-width: 100%;
+   border: 1px solid #ccc;
 }
 
 
 
-  .copyright {
-    font-size: 12px;
-  }
+div.portfolio:hover {
+  border: 1px #777;
+  padding: 5px;
+  margin: 0 auto;
 }
 
-  
-  .footercontact {
-    width: auto;
-    height: auto;
-    display: block;
-  }
+
+
+
+
 
   * {box-sizing: border-box;}
 
@@ -151,63 +182,40 @@ body {margin:0;font-family:crimson}
 
 
 .overlay {
-  position: absolute; 
-  bottom: 0; 
+  position: relative; 
+  bottom: 0px; 
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 100%;
+  background: rgba(0, 0, 0, 0); /* Black see-through */
+  color: #f2f2f2; 
+  max-width: 80%;
   transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 18px;
-  padding: 10px;
+  opacity: 1;
+  color: black;
+  padding: 0px;
+  margin: 0 auto;
+ padding-bottom:0px;
   text-align: center;
+  
 }
 
 .portfolio:hover .overlay {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-
-
-@media screen and (max-width: 1366px) {
-}
   
- 
-  
-  h1 {
-  font-size:18px;
-  text-align:center;
+    h1 {
+    font-size: 18px;
+    font-family:sans-serif;
+ padding:0px;
+    margin:10px;
+    padding-bottom: 0px;
   
   }
 	p {
-	font-size:14px;
+	font-size:16px;
     text-align:center;
 
 }
-
-
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-
 
 
 
@@ -217,9 +225,9 @@ body {margin:0;font-family:crimson}
     height: auto;
   }
   
- .main {
-    font-size: 16px;
-    padding: 10px 20px;
+ p {
+    font-size: 14px;
+    padding: 5px 0px;
     margin: 0 auto;
     font-family: crimson;
     text-align:center;
@@ -227,7 +235,7 @@ body {margin:0;font-family:crimson}
   }
   
   .border {
-    font-size: 18px;
+    font-size: 16px;
     font-family:crimson;
     font-weight: bold;  
     padding: 10px 10px;
@@ -246,8 +254,8 @@ body {margin:0;font-family:crimson}
     height: auto;
     display: block;
   }
-}
-  
+
+
 
 /* portfolio*/
 
@@ -259,18 +267,12 @@ body {margin:0;font-family:crimson}
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
       margin-top: 10px;
     padding: 10px 10px;
   }
 
-  h1 {
-    font-size: 28px;
-    font-family:sans-serif;
- padding:0px;
-    margin:10px;
-    padding-bottom: 0px;
-  }
+
   
   h2 {
     font-size: 18px;
@@ -292,9 +294,6 @@ margin:5px;
   }
     
  
-
-
-
 
  footer {
       text-align: center;
@@ -381,14 +380,5 @@ margin:5px;
         }
   
 
-
-.border {
-    border-bottom: 1px solid #999999;
-    border-top: 1px solid #999999;
-    margin: 0 auto;
-    margin-bottom: 20px;
-      margin-top: 10px;
-    padding: 10px 10px;
-  }
 
 
