@@ -1,3 +1,5 @@
+
+
 @media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1600px) 
@@ -49,7 +51,7 @@ body {margin:0;font-family:crimson}
   overflow: hidden;
   background-color: #f2f2f23;
   position: relative;
-  
+  margin-bottom:30px;
 }
 
 .topnav #myLinks {
@@ -101,30 +103,36 @@ body {margin:0;font-family:crimson}
     height: auto;
   }
 
-  p.main {
+  .main {
     font-size: 14px;
     padding: 10px 20px;
     margin: 0 auto;
     font-family: crimson;
     text-align:center;
+   color:black;
   }
   
   .border {
-    font-size: 15px;
+    font-size: 14px;
     font-family:crimson;
     font-weight: bold;  
     padding: 10px 10px;
+   color: black;
+   margin-top:30px;
   }
 
- .exhibition {
+
+ .responsive {
   margin-top: 20px;
  max-width: 100%;
 }
 
+
+
   .copyright {
     font-size: 12px;
   }
-  
+}
 
   
   .footercontact {
@@ -132,8 +140,54 @@ body {margin:0;font-family:crimson}
     height: auto;
     display: block;
   }
+
+  * {box-sizing: border-box;}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  max-width:100%;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio:hover .overlay {
+  opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 1366px) {
 }
   
+ 
+  
+  h1 {
+  font-size:18px;
+  text-align:center;
+  
+  }
+	p {
+	font-size:14px;
+    text-align:center;
+
+}
+
+
 .container {
   position: relative;
   overflow: hidden;
@@ -163,19 +217,23 @@ body {margin:0;font-family:crimson}
     height: auto;
   }
   
-  
-  
-
-
-
-
-
-  
-  .border {
-    font-size: 14px;
-    text-align: center;
+ .main {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-family: crimson;
+    text-align:center;
+   color:black;
   }
   
+  .border {
+    font-size: 18px;
+    font-family:crimson;
+    font-weight: bold;  
+    padding: 10px 10px;
+   color: black;
+    text-align:center;
+  }
   
   .copyright {
     font-size: 12px;
@@ -332,4 +390,5 @@ margin:5px;
       margin-top: 10px;
     padding: 10px 10px;
   }
+
 
