@@ -87,7 +87,7 @@ body {margin:0;font-family:crimson}
 }
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
 {
   
   
@@ -97,10 +97,10 @@ body {margin:0;font-family:crimson}
     /*responsive main body*/
     .logo {
     display: block;
-    width: 40%;
+    width: 35%;
     height: auto;
   }
-
+}
   p.main {
     font-size: 14px;
     padding: 10px 20px;
@@ -132,7 +132,7 @@ body {margin:0;font-family:crimson}
     height: auto;
     display: block;
   }
-}
+
   
 .container {
   position: relative;
@@ -152,18 +152,14 @@ body {margin:0;font-family:crimson}
   height: 100%;
 }
 
-@media screen 
-  and (min-device-width: 600px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+
 
 
 
 
 .logo {
     display: block;
-    width: 50%;
+    width: 40%;
     height: auto;
   }
   
@@ -172,7 +168,7 @@ body {margin:0;font-family:crimson}
 max-width:400px;
   margin: auto;
   text-align: center;
-font-family:sans-serif;
+font-family:crimson;
 }
 
 
@@ -181,6 +177,7 @@ font-family:sans-serif;
     
     font-size: 14px;
     margin: 10px;
+  font-family:crimson;
 }
 
   #contactbutton{
@@ -195,6 +192,7 @@ font-family:sans-serif;
     cursor: pointer;
     font-size: 14px;
    max-width: 100%;
+    font-family:crimson;
 }
 
   
@@ -202,6 +200,7 @@ a {
   text-decoration: none;
   font-size: 14px;
   color: black;
+  font-family:crimson;
 }
 
 #contactbutton:hover, a:hover {
@@ -212,6 +211,7 @@ a {
   font-size: 14px;
       margin-top: 0px;
     margin-bottom: 0px;
+  font-family:crimson;
   
 }    
   .heading2 {
@@ -219,18 +219,21 @@ a {
       padding: 0px;
   padding-bottom: 0px;
    color: black;
+    font-family:crimson;
   } 
       
 .h1contact{
   Font-size: 18px;
   padding: 5px;
   padding-bottom: 0px;
+  font-family:crimson;
 }
 
 .h2name {
   font-size: 14px;
 margin: 10px;
 margin-bottom:0;  
+  font-family:crimson;
 }
  
 
@@ -270,7 +273,7 @@ margin-bottom:0;
 
   h1 {
     font-size: 28px;
-    font-family:sans-serif;
+    font-family:crimson;
  padding:0px;
     margin:10px;
     padding-bottom: 0px;
@@ -278,7 +281,7 @@ margin-bottom:0;
   
   h2 {
     font-size: 18px;
-    font-family:sans-serif;
+    font-family:crimson;
     font-weight: bold;  
     padding: 0px;
     margin:10px;
@@ -286,7 +289,7 @@ margin-bottom:0;
   
   
   h3 {
-    font-family:sans-serif;
+    font-family:crimson;
     font-size:16px;
 margin:5px;
     text-align: center;
@@ -299,6 +302,7 @@ margin:5px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 15px;
+    font-family:crimson;
 }
       
    
@@ -312,7 +316,7 @@ margin:5px;
   max-width: 400px;
   margin: auto;
   text-align: center;
-font-family:sans-serif;
+font-family:crimson;
   padding: 5px;
 }
 
@@ -320,6 +324,7 @@ font-family:sans-serif;
   color: grey;
   font-size: 16px;
   margin:0px;
+  font-family:crimson;
 }
 
 .material-icons {
@@ -349,7 +354,7 @@ a.number {
   font-size: 15px;
   color: grey;
   margin: 0px;
- font-family: sans-serif;
+font-family:crimson;
  
 }
   #contactbutton{
@@ -360,7 +365,7 @@ a.number {
     text-align: center;
     cursor: cursor;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family:crimson;
 }
 
 .emailbutton {
