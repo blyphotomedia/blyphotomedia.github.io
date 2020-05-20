@@ -1,7 +1,7 @@
 
 
 @media screen 
-  and (min-device-width: 1024px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  width: 35%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px 0px;
   display: block;  
@@ -51,6 +51,7 @@ body {margin:0;font-family:crimson}
   overflow: hidden;
   background-color: #f2f2f23;
   position: relative;
+  
 }
 
 .topnav #myLinks {
@@ -148,7 +149,9 @@ body {margin:0;font-family:crimson}
   }
 }
   
-
+div.gallery {
+  border: 1px solid #ccc;
+}
   
 .container {
   position: relative;
@@ -187,6 +190,8 @@ body {margin:0;font-family:crimson}
 .exhibition {
   margin-top: 20px;
   width: 80%;
+  border: 1px solid #ccc;
+  margin-bottom:10px;
 }
 
   .border {
