@@ -132,6 +132,10 @@ div.gallery {
   border: 1px solid #ccc;
 }
 
+div.gallery.column {
+  border: 1px solid #ccc;
+}
+
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -158,12 +162,27 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
+  width: 50%;
+  padding-bottom:10px;
+}
+
+.responsivecolumn {
+  padding: 0 6px;
+  float: left;
   width: 100%;
   padding-bottom:10px;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
+    width: 48%;
+    margin: 6px 0;
+  }
+}
+
+ 
+ @media only screen and (max-width: 700px) {
+  .gallerycolumn {
     width: 100%;
     margin: 6px 0;
   }
