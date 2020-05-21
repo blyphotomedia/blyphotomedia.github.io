@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 35%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px 0px;
   display: block;  
@@ -97,7 +97,7 @@ body {margin:0;font-family:crimson}
     /*responsive main body*/
     .logo {
     display: block;
-    width: 35%;
+    width: 50%;
     height: auto;
   }
 }
