@@ -225,6 +225,8 @@ div.gallery:hover {
       margin-top: 10px;
     padding: 10px 10px;
     text-align:center;
+    border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
   }
   .border1 {
    
@@ -234,6 +236,8 @@ div.gallery:hover {
       margin-top: 10px;
     padding: 10px 10px;
     text-align:center;
+    border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #cc0000;
 }
 
   h1 {
