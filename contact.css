@@ -265,8 +265,9 @@ margin-bottom:0;
   .border {
     border-bottom: 1px solid #999999;
     border-top: 1px solid #999999;
+    background-color: #f2f2f2;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
       margin-top: 10px;
     padding: 10px 10px;
   }
