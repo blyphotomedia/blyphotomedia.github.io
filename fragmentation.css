@@ -159,11 +159,13 @@ div.responsive1 {
   padding: 0 6px;
   float: left;
   width: 100%;
+  
   }
 
 div.responsivecolumn {
 width: 100%;
 padding: 0 6px;
+margin-top:0px;
 }
 
 div.gallery {
