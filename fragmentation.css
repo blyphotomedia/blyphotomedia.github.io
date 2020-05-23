@@ -154,6 +154,7 @@ box-sizing: border-box;
 padding: 0 6px;
 float: left;
 width: 49.999%;
+padding-top:15px;
 }
 
 div.responsive1 {
