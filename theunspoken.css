@@ -129,6 +129,7 @@ body {margin:0;font-family:crimson}
     background-color: #f2f2f2;
     border-bottom: 2px solid #cc0000;
     border-top: 2px solid #cc0000;
+    
   
   }
 
@@ -163,20 +164,42 @@ body {margin:0;font-family:crimson}
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
+.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-top: 0px;
+}
+
+
+
 
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5%;
+  left: 5%;
   bottom: 0;
-  right: 0;
-  width: 100%;
+  right: 5%;
+  width: 90%;
   height: 100%;
+  
+}
+
+.responsive-iframe1 {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  bottom: 0;
+  right: 5%;
+  width: 90%;
+  height: 100%;
+  
 }
 
 div.gallery {
-  border: 1px solid #ccc;
+padding-top: 0px;
 }
 
 div.gallery:hover {
@@ -186,42 +209,21 @@ div.gallery:hover {
 
 
 
-.video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 5px;
-}
 
-.video2 {
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: -5px;
-}
 /* portfolio*/
 
-.responsive {
-  margin-bottom: 10px;
-  width: 100%;
-  height: auto;
- margin: 0px 0px 15px -5px;
-  
-}
+
 
 .exhibition {
-  margin-top: 15px;
-  width: 70%;
+  margin-top: 5px;
+  width: 80%;
+  
 }
 
   .border {
     
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
       margin-top: 10px;
     padding: 10px 10px;
     text-align:center;
