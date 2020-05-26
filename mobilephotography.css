@@ -158,14 +158,15 @@ box-sizing: border-box;
 .responsive {
 padding: 0 6px;
 float: left;
-width: 50%;
+width: 49.999%;
 padding-bottom:10px;
 }
 
 @media only screen and (max-width: 700px) {
 .responsive {
-  width: 49.99999%;
-  margin: 6px 0;
+  width: 100%;
+  margin: 4px 0;
+  padding: 0px;
 }
 }
 
@@ -185,7 +186,7 @@ clear: both;
 .border {
   
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
     margin-top: 10px;
   width:100%;
   padding: 8px 10px;

@@ -1,34 +1,34 @@
 
 
 @media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+and (min-device-width: 768px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
 }
 
 body {
-  margin: 0 auto;
-  padding: 0px 20px 0px 20px;
-  background-color: #F8F8F8;
-  
+margin: 0 auto;
+padding: 0px 20px 0px 20px;
+background-color: #F8F8F8;
+
 }
 
 .logo {
-  width: 40%;
-  margin: 0 auto;
-  padding: 10px 0px;
-  display: block;  
-  height: auto;
- 
+width: 35%;
+margin: 0 auto;
+padding: 10px 0px;
+display: block;  
+height: auto;
+
 }
-  
+
 img {
-    display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-          padding: 10px;
-          height: auto;
+  display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;
+        padding: 10px;
+        height: auto;
 }
 
 
@@ -38,89 +38,90 @@ body {margin:0;font-family:crimson}
 
 
 .mobile-container {
-  max-width: 0 auto;
-  margin: 0 auto;
-  background-color: #f2f2f2;
-  height: 0 auto;
-  color: white;
-  border-radius: 10px;
-  margin-bottom:30px;
+max-width: 0 auto;
+margin: 0 auto;
+background-color: #f2f2f2;
+height: 0 auto;
+color: white;
+border-radius: 10px;
+margin-bottom:30px;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: #f2f2f2;
-  position: relative;
-  
+overflow: hidden;
+background-color: #f2f2f2;
+position: relative;
+
 }
 
 .topnav #myLinks {
-  display: none;
+display: none;
 }
 
 .topnav a {
-  color: black;
-  padding: 5px 10px;
-  text-decoration: none;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1px;
-  text-align: center;
+color: black;
+padding: 5px 10px;
+text-decoration: none;
+font-size: 16px;
+display: block;
+margin: 0 auto;
+margin-bottom: 1px;
+text-align: center;
 }
 
 .topnav a.icon {
-  background: #cc0000;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 2px;
+background: #cc0000;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+margin: 2px;
 }
 
 .topnav a:hover {
-   background-color: #cc0000;
-  color: white;
+ background-color: #cc0000;
+color: white;
 }
 
 .active {
-  background-color: #cc0000;
-  color: white;
+background-color: #cc0000;
+color: white;
 }
 
 /* ipad responsive main body*/
 @media screen and (max-width: 1024px)
 {
-  
-  
-  body {
-    font-family: crimson;
-  }  
-    
-    .logo {
-    display: block;
-    width: 50%;
-    height: auto;
-  }
 
-  p.main {
-    font-size: 14px;
-    padding: 10px 20px;
-    margin: 0 auto;
-    font-family: crimson;
-  }
+
+body {
+  font-family: crimson;
+}  
   
-  .border {
-    font-size: 16px;
-    font-family:crimson;
-    font-weight: bold;  
-    padding: 10px 10px;
-    background-color: #f2f2f2;
-  height: 0 auto;
-  color: black;
-  
-  margin-bottom:30px;
-  }
+  .logo {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+p.main {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  font-family: crimson;
+  margin-bottom: 0px;
+}
+
+.border {
+  font-size: 16px;
+  font-family:crimson;
+  font-weight: bold;  
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+height: 0 auto;
+color: black;
+
+margin-bottom:20px;
+}
 
 
 }
@@ -129,193 +130,193 @@ body {margin:0;font-family:crimson}
 
 /* portfolio*/
 div.gallery {
-  border: 1px solid #ccc;
+border: 1px solid #ccc;
 }
 
 div.gallery.column {
-  border: 1px solid #ccc;
+border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 
 div.desc {
-  padding: 0px;
-  text-align: center;
-  color:black;
-  margin-bottom:10px;
-  font-size:14px;
+padding: 0px;
+text-align: center;
+color:black;
+margin-bottom:10px;
+font-size:14px;
 }
 
 
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .responsive {
-  padding: 0 6px;
-  float: left;
-  width: 50%;
-  padding-bottom:10px;
+padding: 0 6px;
+float: left;
+width: 49.999%;
+padding-bottom:5px;
 }
 
 .responsivecolumn {
-  padding: 0 6px;
-  float: left;
-  width: 100%;
-  padding-bottom:10px;
+padding: 0 6px;
+float: left;
+width: 100%;
+padding-bottom:8px;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 48%;
-    margin: 6px 0;
-  }
+.responsive {
+  width: 49.999%;
+  margin: 3px 0;
+}
 }
 
- 
- @media only screen and (max-width: 700px) {
-  .gallerycolumn {
-    width: 100%;
-    margin: 6px 0;
-  }
+
+@media only screen and (max-width: 700px) {
+.gallerycolumn {
+  width: 100%;
+  margin: 4px 0;
+}
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+.responsive {
+  width: 100%;
+}
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 
 
-  .border {
-    
-    margin: 0 auto;
-    margin-bottom: 30px;
-      margin-top: 10px;
-    width:100%;
-    padding: 8px 10px;
-    text-align:center;
-    font-size:16px;
-    background-color: #f2f2f2;
-  height: 0 auto;
-  color: black;
+.border {
+  
+  margin: 0 auto;
+  margin-bottom: 25px;
+    margin-top: 10px;
+  width:100%;
+  padding: 8px 10px;
+  text-align:center;
+  font-size:16px;
+  background-color: #f2f2f2;
+height: 0 auto;
+color: black;
+}
+
+
+
+
+.main {
+    font-family: sans-serif;
+    font-size: 14px;
+margin-bottom: 0;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  line-height: 1.3;
+  margin-top:10px;
+  
   }
 
- 
 
- 
-  .main {
-      font-family: sans-serif;
-      font-size: 16px;
-  margin-bottom: 0;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px;
-    padding-bottom: 15px;
+
+/* footer */
+
+  footer {
     text-align: center;
-    line-height: 1.3;
-    margin-top:20px;
-    
-    }
-
-
-
-  /* footer */
-
-    footer {
-      text-align: center;
-        width: 100%;
-        margin-top: 10px;
-      padding: 0px 0px 0px 0px;
-      display: block;
-       border-bottom: 4px solid #cc0000;
-        border-top: 4px solid  #cc0000;
-        background-color: #f2f2f2;
-      }
-      
-      
-    
-        a {
-        color: #999999;
-        text-decoration: none;
-        font-weight: bold;
-          text-align: center;
-    }
-          
-    .fa {
-      padding: 5px;
-      font-size: 30px;
-      width: auto;
-      text-align: center;
-      text-decoration: none;
-    }
-    
-    /* Add a hover effect if you want */
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    /* Set a specific color for each brand */
-      .fa-linkedin{
-  background: #3B5998;
-      color: white; 
-}
-    /* Facebook */
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    
-    }
-    
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-    
-    .fa-youtube {
-      background: #bb0000;
-      color: white;
-    }
-    
-    .icons {
-     
-      margin: 0 auto;
-      vertical-align: middle;
-      padding: 5px 5px;
-      display: inline-block;
       width: 100%;
+      margin-top: 10px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+     border-bottom: 4px solid #cc0000;
+      border-top: 4px solid  #cc0000;
+      background-color: #f2f2f2;
     }
     
-    .copyright {
-      opacity: .5;
-      padding: 0px;
-      text-align: center;
-      margin: auto 0;
-      
-    }
     
-       p.copyright {
-        font-size: 10px;
-        margin-bottom: 0px;
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-left: 0px;
-            padding-top: 0px;
-            padding-bottom: 5px;
-        }
+  
+      a {
+      color: #999999;
+      text-decoration: none;
+      font-weight: bold;
+        text-align: center;
+  }
+        
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+    .fa-linkedin{
+background: #3B5998;
+    color: white; 
+}
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .icons {
+   
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 5px 5px;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .copyright {
+    opacity: .5;
+    padding: 0px;
+    text-align: center;
+    margin: auto 0;
+    
+  }
+  
+     p.copyright {
+      font-size: 10px;
+      margin-bottom: 0px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-left: 0px;
+          padding-top: 0px;
+          padding-bottom: 5px;
+      }
 
 
 
