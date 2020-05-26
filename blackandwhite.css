@@ -108,8 +108,8 @@ p.main {
   padding: 10px 40px;
   margin: 0 auto;
   font-family: crimson;
-  margin-bottom: 0px;
-  margin-top:0px;
+  margin-bottom: -3px;
+  margin-top:-3px;
 }
 
 .border {
@@ -141,6 +141,7 @@ border: 1px solid #777;
 div.gallery img {
 width: 100%;
 height: auto;
+
 }
 
 div.desc {
@@ -211,7 +212,7 @@ padding: 10px 10px;
 padding-bottom: 15px;
 text-align: center;
 line-height: 1.3;
-margin-top:10px;
+margin-top:0px;
   
   }
 
