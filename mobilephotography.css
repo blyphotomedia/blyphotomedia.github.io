@@ -119,7 +119,7 @@ p.main {
 height: 0 auto;
 color: black;
 
-margin-bottom:30px;
+margin-bottom:25px;
 }
 
 
@@ -162,13 +162,28 @@ width: 49.999%;
 padding-bottom:10px;
 }
 
+.responsivecolumn {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+  padding-bottom:15px;
+  }
+
 @media only screen and (max-width: 700px) {
 .responsive {
   width: 100%;
-  margin: 4px 0;
+  margin: 5px 0;
   padding: 0px;
 }
 }
+
+@media only screen and (max-width: 700px) {
+  .responsivecolumn {
+    width: 100%;
+    margin: 5px 0;
+  
+  }
+  }
 
 @media only screen and (max-width: 500px) {
 .responsive {
@@ -201,15 +216,15 @@ color: black;
 
 
 .main {
-    font-family: sans-serif;
-    font-size: 16px;
+  font-family: crimson;
+  font-size: 16px;
 margin-bottom: 0;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px;
-  padding-bottom: 15px;
-  text-align: center;
-  line-height: 1.3;
-  margin-top:20px;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px;
+padding-bottom: 10px;
+text-align: center;
+line-height: 1.3;
+margin-top:0px;
   
   }
 
