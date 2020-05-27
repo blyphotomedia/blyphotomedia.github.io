@@ -105,7 +105,7 @@ body {
 
 p.main {
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 10px 60px;
   margin: 0 auto;
   font-family: crimson;
 }
@@ -129,15 +129,17 @@ margin-bottom:30px;
 
 /* portfolio*/
 div.gallery {
-border: 1px solid #ccc;
+
+
+
 }
 
 div.gallery:hover {
-border: 1px solid #777;
+
 }
 
 div.gallery img {
-width: 100%;
+width: 80%;
 height: auto;
 }
 
@@ -145,15 +147,17 @@ div.desc {
 padding: 0px;
 text-align: center;
 color:black;
-margin-bottom:10px;
-font-size:14px;
+margin-bottom:5px;
+font-size:10px;
+text-decoration: underline;
+
 }
 
 .exhibition {
-    margin-top: 25px;
+    margin-top: 15px;
     width: 80%;
-    border: 1px solid #ccc;
-    margin-bottom:10px;
+    
+    margin-bottom:0px;
   }
 
 * {
@@ -163,9 +167,19 @@ box-sizing: border-box;
 .responsive {
 padding: 0 6px;
 float: left;
-width: 50%;
-padding-bottom:10px;
+width: 80%;
+
+
+
 }
+
+div.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+  margin-top:5px;
+  
+  }
 
 @media only screen and (max-width: 700px) {
 .responsive {
